@@ -12,9 +12,12 @@
 
 ## Objectif
 
+**Identifier le lien usages/logiciels pour réaliser de l'annotation en sciences humaines et sociales avec différents niveaux d'intégrations d'automatisation (des heuristiques aux usages "IA").**
+
 - Proposer une grille de lecture pour se repérer dans un paysage d'outils complexes et mouvant des outils d'annotation
 - Spécifique aux tâches des sciences humaines et sociales
 - Produire un document utilisable pour les praticiens pour choisir l'outil qui permettra d'aboutir leur tâche
+- Expliciter les polysémies des deux termes : "annotation" et "IA"
 
 ## Calendrier
 

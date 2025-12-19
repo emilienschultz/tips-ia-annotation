@@ -7,6 +7,8 @@
 
 ## Liste pour la vague 1
 
+Aller vers des logiciels accessibles donc libre pour la première vague.
+
 - TXM
 - QualCoder
 - Label Studio
