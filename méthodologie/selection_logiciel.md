@@ -8,9 +8,14 @@
 ## Liste pour la vague 1
 
 - TXM
-- Nvivo
+- QualCoder
 - Label Studio
 - Doccano
 - Prodigy
 - Inception
-- LibreQDA
+
+## Liste pour la vague 2
+
+- Nvivo
+- MaxQDA
+- AtlasTi
