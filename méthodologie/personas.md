@@ -8,15 +8,14 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 - Une sociologue veut annoter un ensemble de longs textes (ex: entretiens) au niveau de passage de texte en construisant au fur et à mesure sa grille de codage.
 
-- Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinies.
+- Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinis.
 
-- Une linguiste doit enrichir un corpus de textes (ex: XXXX ) de taille moyenne à l'échelle du mots/lemme
+- Une linguiste doit annoter des relations entre des entités du texte dans un corpus de textes de taille moyenne (centaine d'entretiens courts retranscrits) en ayant accès à un étiquetage morphosyntaxique
 
-    - variante 1 : relations entre les entités 
-    - variante 2 : avec de l'alignement avec de l'audio
-    - variante 3 : en ayant un patron morpho-syntaxiques
+- Une économiste veut extraire des informations contenues dans des documents dans un corpus de taille moyenne (ex : offres d'emploi)
 
-- Un économiste veut extraire des informations contenues dans des documents dans un corpus de taille moyenne (ex : offres d'emploi)
+- Un chercheur en science de l'éducation s'intéresse à une série de vidéos d'interaction en milieu naturel d'individus et doit annoter les échanges d'intérêt (verbaux et non verbaux)
+
 
 *Profils pour le futur*
 
