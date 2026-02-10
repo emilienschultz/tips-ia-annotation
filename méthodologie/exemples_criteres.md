@@ -97,9 +97,8 @@ Aperçu :
   - OSS
   - Quality Control (e.g. benchmarking, IRR/IAA)
 
-## Table synthèse des critères
 
-### Grille Wiki
+### Sous forme grille Wiki
 | Item d'évaluation | Description | Exemples de modalités |
 |---|---|---|
 | Application | Nom du logiciel ou de l'outil. | Aquad, ATLAS.ti, Cassandre, Dovetail, Dedoose, ELAN, KH Coder, MAXQDA, NVivo, QDAcity, etc. |
@@ -111,7 +110,7 @@ Aperçu :
 | OS Supported | Systèmes d'exploitation supportés. | Windows, macOS, Linux, iOS, Android, All (java-based), All (web browser) |
 | Tools | Fonctionnalités ou outils intégrés. | Coding, Sequence Analysis, Exploratory Data Analysis, Aggregation, Query, Visualisation, Statistical Tools, Word extracting, Auto-coding, Topic analysis, IRR (Inter-Rater Reliability) |
 
-### Grille NYU
+### Sous forme grille NYU
 | Item d'évaluation | Description | Exemples de modalités |
 |---|---|---|
 | Website | Lien vers le site officiel du logiciel. | Taguette, ATLAS.ti, MAXQDA, etc. |
@@ -126,47 +125,36 @@ Aperçu :
 | Pros | Avantages ou points forts du logiciel. | Free & open source, easy to navigate, supports mixed methods, interrater reliability, visualization tools |
 | Cons | Inconvénients ou limites du logiciel. | No visualization, complicated interface, requires R knowledge, limited community support |
 
-### Bilan wiki + NYU + Doccano
+## Table synthèse des critères wiki + NYU + Doccano
 
-
-### Grille Wiki
 | Item d'évaluation | Description | Exemples de modalités |
 |---|---|---|
-| Application | Nom du logiciel ou de l'outil. | Aquad, ATLAS.ti, Cassandre, Dovetail, Dedoose, ELAN, KH Coder, MAXQDA, NVivo, QDAcity, etc. |
+| **--- Fiche tech ---** |  |  |
+| Application + Website | Nom du logiciel + lien vers le site | Taguette, ATLAS.ti, MAXQDA, etc. |
 | Type | Type de déploiement ou d'accès. | Client, Web-based, Web-based/server, Client/Web-based, R package |
-| License | Type de licence. | Free – GPL, Free – LGPL, Free – BSD, Proprietary, Proprietary (used to be GPL) |
-| Source | Ouverture du code source. | Open, Closed |
-| Last Release | Date de la dernière version. | 2017-02, 2022-07, 2025-11-10, 2026-02-09, Abandonné (ex: 2006) |
-| Analyses | Types de données supportées. | Texte, Audio, Video, Graphics, Social Networks, PDF, Multimodal |
+| License | Type de licence (si enjeu préciser prix dans nos cas) | Free – GPL, Free – LGPL, Free – BSD, Proprietary, Proprietary (used to be GPL) |
+| Availability (fusionner avec licence ?)| Disponibilité du logiciel pour une communauté ou institution spécifique. | Free & open source, 14-day free trial, No, Available via VCL, etc. |
+| Last Release/maintenance | Date de la dernière version. | 2017-02, 2022-07, 2025-11-10, 2026-02-09, Abandonné (ex: 2006) |
 | OS Supported | Systèmes d'exploitation supportés. | Windows, macOS, Linux, iOS, Android, All (java-based), All (web browser) |
-| Tools | Fonctionnalités ou outils intégrés. | Coding, Sequence Analysis, Exploratory Data Analysis, Aggregation, Query, Visualisation, Statistical Tools, Word extracting, Auto-coding, Topic analysis, IRR (Inter-Rater Reliability) |
-
-### Grille NYU
-| Item d'évaluation | Description | Exemples de modalités |
-|---|---|---|
-| Website | Lien vers le site officiel du logiciel. | Taguette, ATLAS.ti, MAXQDA, etc. |
-| Availability | Disponibilité du logiciel pour une communauté ou institution spécifique. | Free & open source, 14-day free trial, No, Available via VCL, etc. |
-| Support | Type de support institutionnel ou technique disponible. | 1-1 consultation, group training, classes, No support |
-| OS Support | Systèmes d'exploitation supportés. | Both (Windows, macOS), Both + Linux, Web-based, Windows only |
+| **--- Fonctionnalités et spécificités usage---** |  |  |
 | Import file types | Types de fichiers supportés pour l'importation. | .txt, .docx, .pdf, .mp3, .mp4, .xls, .html, etc. |
 | Export options | Formats disponibles pour l'exportation des données ou résultats. | CSV, DOCX, PDF, HTML, XML, SPSS, Visualizations (PDF/graphic file) |
 | Data storage | Où et comment les données sont stockées. | Locally, on server, on network, on web, single file |
 | Backup options | Options de sauvegarde disponibles. | Daily backup on server, compressed backup file, copy of project file, no backup option |
+| Analyses | Types de données supportées. | Texte, Audio, Video, Graphics, Social Networks, PDF, Multimodal |
+| Tools | Fonctionnalités ou outils intégrés. | Coding, Sequence Analysis, Exploratory Data Analysis, Aggregation, Query, Visualisation, Statistical Tools, Word extracting, Auto-coding, Topic analysis, IRR (Inter-Rater Reliability) |
+| Supporting Tasks | Type de taches | Classification, Sequence Labeling, Seq2seq, Relation, Dictionary, Choice |
+| Supporting Active Learning or Auto Labeling | Fonctionnalités active learning (idée de pouvoir en faire un truc IA dans notre cas) | Active Learning, Auto Labeling, Model Training, API Access |
 | Collaboration | Fonctionnalités de collaboration (temps réel, fusion de projets, etc.). | Real-time collaboration, merge projects, no collaboration, server-based collaboration |
+| **--- Avis final ---** |  |  |
 | Pros | Avantages ou points forts du logiciel. | Free & open source, easy to navigate, supports mixed methods, interrater reliability, visualization tools |
 | Cons | Inconvénients ou limites du logiciel. | No visualization, complicated interface, requires R knowledge, limited community support |
-
-Doccano :
-- Price and other
-- Collaboration
-- Supporting Tasks
-- Supporting Active Learning or Auto Labeling -> moyen faire un lien plutôt IA pour nous.
-
 
 ## Imaginer une typologie des critères ?
 
 - certains qui pourraient être plus descriptifs / techniques
 - d'autres plus sur l'adapatation à telle ou telle pratique ?
+- un avis final pro/con plus quali ?
 
 ### Critères descriptifs
 
