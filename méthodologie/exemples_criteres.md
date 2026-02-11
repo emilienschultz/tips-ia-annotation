@@ -5,7 +5,11 @@
 - Trouver quelques exemples de grilles d'évaluation déjà proposées sur le sujet et/ou sur de l'éval de logiciel, histoire de ne pas réinventer la roue.
 - lister les critères existants dans ces grilles
 - aviser de ceux qui pourraient être pertinent
-- donner une idée "visuelle" de comment ça pourrait se traduire (tableau, + compléter avec avis texte, etc.)
+- Pouvoir ensuite avoir une base pour réfléchir à la forme que ça devrait prendre
+  - donner une idée "visuelle" de comment ça pourrait se traduire
+  - tableau, + compléter avec avis texte, etc.
+  - ou dummies/entrées à cocher oui/non
+  - plusieurs tables différentes, etc.
 
 ## Exemples existants
 
@@ -17,10 +21,10 @@ Quelques exemples sur des sujets connexes :
 
 Aperçu :
 
-![](img/grille_wiki.png)
-![](img/grille_nyu_1.png)
-![](img/grille_nyu_2.png)
-![](img/grille_doccano.png)
+![grille_wiki](img/grille_wiki.png)
+![grille_nyu_1](img/grille_nyu_1.png)
+![grille_nyu_2](img/grille_nyu_2.png)
+![grille_doccano](img/grille_doccano.png)
 
 <!-- Si besoin de mettre en plus petit par html
 <img src="img/grille_wiki.png" width="600" alt="grille_wiki">
@@ -101,18 +105,22 @@ Aperçu :
   - OSS
   - Quality Control (e.g. benchmarking, IRR/IAA)
 
-## Table synthèse des critères wiki + NYU + Doccano
 
+### Table synthèse des critères wiki + NYU + Doccano
+
+Si besoin, décommenter là dessous pour avoir une idée de ce que ça donne en synthèse
+
+<!-- début comment table
 | Item d'évaluation | Description | Exemples de modalités |
 | --- | --- | --- |
-| **--- Fiche tech ---** |  |  |
+| **--- Fiche tech ---** | | |
 | Application + Website | Nom du logiciel + lien vers le site | Taguette, ATLAS.ti, MAXQDA, etc. |
 | Type | Type de déploiement ou d'accès. | Client, Web-based, Web-based/server, Client/Web-based, R package |
 | License | Type de licence (si enjeu préciser prix dans nos cas) | Free – GPL, Free – LGPL, Free – BSD, Proprietary, Proprietary (used to be GPL) |
-| Availability (fusionner avec licence ?)| Disponibilité du logiciel pour une communauté ou institution spécifique. | Free & open source, 14-day free trial, No, Available via VCL, etc. |
+| Availability (fusionner avec licence ?) | Disponibilité du logiciel pour une communauté ou institution spécifique. | Free & open source, 14-day free trial, No, Available via VCL, etc. |
 | Last Release/maintenance | Date de la dernière version. | 2017-02, 2022-07, 2025-11-10, 2026-02-09, Abandonné (ex: 2006) |
 | OS Supported | Systèmes d'exploitation supportés. | Windows, macOS, Linux, iOS, Android, All (java-based), All (web browser) |
-| **--- Fonctionnalités et spécificités usage---** |  |  |
+| **--- Fonctionnalités et spécificités usage---** | | |
 | Import file types | Types de fichiers supportés pour l'importation. | .txt, .docx, .pdf, .mp3, .mp4, .xls, .html, etc. |
 | Export options | Formats disponibles pour l'exportation des données ou résultats. | CSV, DOCX, PDF, HTML, XML, SPSS, Visualizations (PDF/graphic file) |
 | Data storage | Où et comment les données sont stockées. | Locally, on server, on network, on web, single file |
@@ -122,76 +130,55 @@ Aperçu :
 | Supporting Tasks | Type de taches | Classification, Sequence Labeling, Seq2seq, Relation, Dictionary, Choice |
 | Supporting Active Learning or Auto Labeling | Fonctionnalités active learning (idée de pouvoir en faire un truc IA dans notre cas) | Active Learning, Auto Labeling, Model Training, API Access |
 | Collaboration | Fonctionnalités de collaboration (temps réel, fusion de projets, etc.). | Real-time collaboration, merge projects, no collaboration, server-based collaboration |
-| **--- Avis final ---** |  |  |
+| **--- Avis final ---** | | |
 | Pros | Avantages ou points forts du logiciel. | Free & open source, easy to navigate, supports mixed methods, interrater reliability, visualization tools |
 | Cons | Inconvénients ou limites du logiciel. | No visualization, complicated interface, requires R knowledge, limited community support |
+
+Fin comment -->
 
 ## Imaginer une typologie des critères ?
 
 - certains qui pourraient être plus descriptifs / fiche technique + grandes fonctionnalités
-- d'autres plus sur adéquation SHS,  l'adapatation à telle ou telle pratique et donc fonctionnalités plus détaillées
+- d'autres plus sur adéquation SHS, l'adapatation à telle ou telle pratique et donc fonctionnalités plus détaillées
 - un avis final pro/con plus quali ?
 
-### Une table pour nous ?
+## Une table pour nous ?
 
 Qui collerait à nos critères génériques et à spécifier pour les critères d'adéquation SHS + objectifs des personae
 
 | Critère | Description | Exemples de modalités |
 | --- | --- | --- |
-| **--- Fiche tech ---** |  |  |
+| **--- Fiche tech ---** | | |
 | Nom du logiciel + Website | Nom du logiciel + lien vers le site | Taguette, Qualcoder, etc. |
 | Type | Type de déploiement ou d'accès. | Client, Web, server, package |
 | Licence (~ accessibilité) | Type de licence | Open source (MIT, GPL, BSD), Propriétaire (prix €), Gratuit |
 | Maintenance | Date dernière version / fréquence des mises à jour | Actif (xxxx-yyyy), Peu actif, Abandonné |
 | OS & Compatibilité | Systèmes d'exploitation supportés. | Windows, macOS, Linux, iOS, Android, Tout (Web ?) |
-| **--- Critères d’adéquation SHS / Fonctionnalités et spécificités usage---** |  |  |
-| **--- Générique (sans doute même dans la fiche tech ?)---** |  |  |
+| **--- Critères d’adéquation SHS / Fonctionnalités et spécificités usage---** | | |
+| **--- Générique (sans doute même dans la fiche tech ?)---** | | |
 | Types de données | Types de données supportées. | Texte, Audio, Video, Images, PDF, Multimodal, Réseaux sociaux, etc. |
-| Fonctionnalités générales | Fonctionnalités ou outils intégrés. | Codage, Analyse de séquences, Visualisation, Statistiques lexicales, extraction entité nommées, Auto-coding, etc. |
-| **--- Spécifique---** |  |  |
+| Fonctionnalités générales / Analyse & Indicateurs | Fonctionnalités ou outils (d'analyse) intégrés | Codage, Analyse de séquences, Visualisation, Statistiques lexicales, extraction entité nommées, Auto-coding, etc. |
 | Collaboration | Niveau de support pour le travail d'équipe | Temps réel, Fusion manuelle de projets, Pas de collaboration, Orienté équipe, Orienté crowdworking |
-| Sécurité & Confidentialité | Niveau de sécurité et stockage des données | Local, Serveur dédié, Cloud, Pas de contrôle |
+| Data storage / Sécurité & Confidentialité | Niveau de sécurité et stockage des données | Local, Serveur dédié, Cloud, Pas de contrôle |
 | Communauté | Adoption et support documentation SHS / communautaire (forums, tutoriels) | Large adoption, Niche, Peu documenté |
-
-| **--- Avis final ---** |  |  |
+| **--- Spécifique---** | | |
+| Tâches supportées (pour détailler plus que fonctionnalités générales) | Classification, segmentation, analyse thématique, etc. | Classification, Segmentation, Topic analysis, Relation extraction, NER, etc.|
+| Automatisation #IA-ish | Intégration de ML/DL/LLM ou outils d'auto-coding | Manuel, Semi-automatisé, Auto-labeling, Active Learning, blablabla |
+| Modèles sous-jacents (si besoin) | Classiques, encodeurs, LLM, hybride | Modèles classiques, Encodeurs, LLM, Hybride, etc. |
+| SI besoin ajouter des catégories IA machin | Ou alors un autre tableau oui non | Enfin voir quoi |
+| Modularité | Flexibilité et personnalisation | Modulaire, Monolithique, Plugins/Extensions |
+| **--- Plus niche---** | | |
+| Import/Export/interopéabilité | Formats supportés, interopérabilité (avec formats propriétaires, etc.) | PDF, DOCX, CSV, JSON, RDF, etc. |
+| **--- Avis final ---** | | |
+| Expérience utilisateur | (UX et déploiement ?) Facilité d'utilisation et courbe d'apprentissage | Intuitif, Complexe, Nécessite une formation |
 | Pros | Avantages ou points forts du logiciel. | Open source, visualisation avancée, support multimodal, collaboration temps réel |
 | Cons | Inconvénients ou limites du logiciel. | Pas de xx ou yy, nécessite compétences programmation, peu de support communautaire, pas de collaboration, stockage RGPD, lalala |
-| Profil type / cas d'usage SHS | ? Orientation disciplinaire, adaptation aux disciplines SHS ?| sociologie, linguistique, etc.., Informatique, Générique. PERSONAE ? |
+| Profil type / cas d'usage SHS | ? cf coloration disciplinaire/communauté d'origine / Orientation disciplinaire, adaptation aux disciplines SHS ? | sociologie, linguistique, etc.., Informatique, Générique. PERSONAE ? |
 
-cf - coloration disciplinaire/communauté d'origine
-
-
-### Critères d’adéquation SHS
-
-
-Automatisation,Intégration de ML/DL ou outils d'auto-coding.,Manuel, Semi-automatisé, Auto-labeling, Active Learning.
-Modularité,Flexibilité et personnalisation.,Modulaire, Monolithique, Plugins/Extensions.
-Expérience utilisateur,Facilité d'utilisation et courbe d'apprentissage.,Intuitif, Complexe, Nécessite une formation.
-
-Tâches supportées,Classification, segmentation, analyse thématique, etc., Classification / Segmentation / Topic analysis / Relation extraction
-
-**Plus niche :**
-Import/Export,Formats supportés, interopérabilité,PDF, DOCX, CSV, JSON, RDF, etc.
-Gestion des données,Données plates, hiérarchisées, ontologies,Données plates / Ontologies internes / Ontologies externes
-Sémantisation,Support pour la création ou l'import d'ontologies.,Ontologies internes, Ontologies externes, Pas de support.
-Analyse & Indicateurs,Outils d'analyse intégrés (statistiques, visualisation, IRR).,Visualisation, Statistiques, Benchmarking, Export SPSS/R.
-Fenêtre d’attention,Capacité à gérer des contextes larges ou restreints,Large (corpus) / Restreinte (document)
-Modèles sous-jacents,Classiques, encodeurs, LLM, hybride,Modèles classiques / LLM / Hybride
-
+**Dans ce que l'on avait et qui traine encore (parfois quand même couvert indirectement par des catégories) :**
 
 - académique / non académique
-- intuitif / complexe (UX et déploiement)
-- outil spécifique sur une tâche / plateforme avec de nombreuses fonctions (topic analysis)
-- type de tache : classification / segmentation
-
-- uniquement annotation / analyse & indicateurs
-- uniquement annotation/intégration ML/DL
-- modèles classiques / modèles encodeurs / LLM
-- fenêtre d'attention
-
 - orienté humain (création de l'information) / orienté automatisation (correction de la prédiction)
 - orienté document / orienté corpus / orienté modèle
-
 - données plates / gestion avancées de données
 - utilisateur crée les ontologies / ontologies extérieures - sémantisation
-- degré de modularité
