@@ -20,3 +20,9 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 *Profils pour le futur*
 
 - Un historien...
+
+## Décliner les personas en critères
+
+Chaque profil pose des contraintes à l'usage d'un logiciel.
+
+Ces contraintes seront développées pour chaque profil lors de la réflexion sur l'adéquation avec un logiciel, pour former une grille de tâches/demandes.
