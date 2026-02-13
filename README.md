@@ -34,4 +34,4 @@
 L Colucci Cante, S D'Angelo, B Di Martino… - … Conference on Complex …, 2024
 - Exploring large language models for qualitative data analysis. In Proceedings of the 4th International Conference on Natural Language Processing for Digital Humanities
 - Moncada, Marie. « Should We Use NVivo or Excel for Qualitative Data Analysis? » Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique 165‑166, nᵒ 1‑2 (avril 2025): 186‑211. https://doi.org/10.1177/07591063251317084.
-
+- Rioufreyt T., 2019, « Introduction – Special issue : L’outil et la méthode. Des fonctionnalités techniques des CAQDAS à leurs usages méthodologiques », Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique, 143, 1, p. 7‑27. https://doi.org/10.1177/0759106319852886
