@@ -16,8 +16,10 @@
 Quelques exemples sur des sujets connexes :
 
 - Grille caqdas des [NYU Libraries](https://guides.nyu.edu/QDA/comparison)
+- Choisir un CAQDAS de [University of Surrey](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis/resources/choosing-appropriate-caqdas-package) 
 - Même esprit sur cette page [wikipedia](https://en.wikipedia.org/wiki/Computer-assisted_qualitative_data_analysis_software#Free_.2F_open_source_software_for_CAQDAS)
 - Ou sur ce repo [github](https://github.com/doccano/awesome-annotation-tools)
+
 
 Aperçu :
 
@@ -37,14 +39,16 @@ Aperçu :
 
 ### Ce que l'on avait évoqué précédement en vrac
 
-- texte uniquement/multimodal
-- ouvert/fermé
+- logiciel ouvert/libre ou propriétaire
+- stockage de l'information interopérable/local ou cloud
+- texte uniquement/multimodal (et quel multimodal, avec quel degré d'intégration)
 - service/logiciel on premise
-- type de tache : classification / segmentation
+- type de taches couvertes
 - uniquement annotation/intégration ML/DL
-- académique / non académique
-- coloration disciplinaire/communauté d'origine
-- modèles classiques / modèles encodeurs / LLM
+- académique / non académique (issu de la recherche, pour la recherche)
+  - coloration disciplinaire/communauté d'origine
+- forme d'intégration de l'IA
+  - modèles classiques / modèles encodeurs / LLM
 - outil spécifique sur une tâche / plateforme avec de nombreuses fonctions (topic analysis)
 - confidentiel / forte adoption
 - plus maintenu / maintenu
@@ -110,7 +114,6 @@ Aperçu :
 
 Si besoin, décommenter là dessous pour avoir une idée de ce que ça donne en synthèse
 
-<!-- début comment table
 | Item d'évaluation | Description | Exemples de modalités |
 | --- | --- | --- |
 | **--- Fiche tech ---** | | |
@@ -134,7 +137,6 @@ Si besoin, décommenter là dessous pour avoir une idée de ce que ça donne en 
 | Pros | Avantages ou points forts du logiciel. | Free & open source, easy to navigate, supports mixed methods, interrater reliability, visualization tools |
 | Cons | Inconvénients ou limites du logiciel. | No visualization, complicated interface, requires R knowledge, limited community support |
 
-Fin comment -->
 
 ## Imaginer une typologie des critères ?
 
