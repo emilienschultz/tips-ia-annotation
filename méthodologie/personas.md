@@ -6,20 +6,67 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 ## Propositions
 
-- Une sociologue veut annoter un ensemble de longs textes (ex: entretiens) au niveau de passage de texte en construisant au fur et à mesure sa grille de codage.
+### Une sociologue veut annoter un ensemble de longs textes (ex: entretiens) au niveau de passage de texte en construisant au fur et à mesure sa grille de codage.
 
-- Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinis.
+Outils en place :
 
-- Une linguiste doit annoter des relations entre des entités du texte dans un corpus de textes de taille moyenne (centaine d'entretiens courts retranscrits) en ayant accès à un étiquetage morphosyntaxique
+- QualCoder (binaire, pas de droit d'admin, import taguette https://github.com/ccbogel/QualCoder/releases/tag/3.8.2 
+- LibreQDA (en client/serveur)
+- Taguette (binaire, en client/serveur)
 
-- Une économiste veut extraire des informations contenues dans des documents dans un corpus de taille moyenne (ex : offres d'emploi)
+Outils émergents :
 
-- Un chercheur en science de l'éducation s'intéresse à une série de vidéos d'interaction en milieu naturel d'individus et doit annoter les échanges d'intérêt (verbaux et non verbaux)
+- Sonal
 
+### Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinis.
+
+Outils en place : 
+
+- LabelStudio (docker)
+- Doccano (docker)
+
+Outils émergents : 
+
+- Active Tigger
+
+### Une linguiste doit annoter des relations entre des entités du texte dans un corpus de textes de taille moyenne (centaine d'entretiens courts retranscrits) en ayant accès à un étiquetage morphosyntaxique
+
+Outils en place : 
+
+- TXM
+- Inception
+
+Outils émergents : 
+
+- ??
+
+### Une économiste veut extraire rapidement des informations contenues dans des documents dans un corpus de taille moyenne (ex : offres d'emploi)
+
+Outils en place : 
+
+- LabelStudio (docker)
+
+Outils émergents : 
+
+- wrapper Python (+ API)
+- Argilla (+API)
+
+### Un chercheur en science de l'éducation s'intéresse à une série de vidéos d'interaction en milieu naturel d'individus et doit annoter les échanges d'intérêt (verbaux et non verbaux)
+
+Outils en place :
+
+- Elan/avaa toolkit
+- QualCoder
+
+Outils émergents : 
+
+- ?
+
+### Divers
 
 *Profils pour le futur*
 
-- Un historien...
+- Un historien en humanité numérique (logiciel comme TACTEO)
 
 ## Décliner les personas en critères
 
