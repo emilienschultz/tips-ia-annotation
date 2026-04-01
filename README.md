@@ -21,11 +21,12 @@
 
 ## Calendrier
 
-- 27 août 2025 : premier échange et brainsorming
-- fin septembre 2026 : stabilisation du protocole et vague de test
-- novembre 2026 : réunion de discussion sur la vague de test, lancement de la première vague
-- février 2026 :, test des logiciels collectif et construction d'un document de travail
-- avril 2026 : réunion d'échange sur les logiciels et bases du rapport
+Rétro planning : fin décembre clôture
+
+- fin avril/mai, réunion de calage et distribution des tâches
+- juin/juillet/août : avancer les fiches logiciels/persona
+- réunion fin août de mutualisation collective
+- décembre 2026 : première version du rapport
 
 ## Ressources
 
