@@ -1,8 +1,11 @@
 # Qualcoder
 
 Dernière modification de la fiche : 01/04/2026
+
 Version testée : 3.8.2
+
 Site web : [https://qualcoder.wordpress.com/](https://qualcoder.wordpress.com/)
+
 Code : [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
 ## Description générale
@@ -23,6 +26,7 @@ C'est une version alternative, libre et gratuite aux logiciels connus.
 *- Conditions légale d'adoption : licence du logiciel \& prix*
 
 Logiciel libre et gratuit d'usage
+
 Type de licence : GNU LESSER GENERAL PUBLIC LICENSE Version 3
 
 
@@ -56,6 +60,7 @@ Possibilité de lancer aussi directement des sources
 *- Support communautaire à l'usage francophone : où trouver de l'aide / diffusé dans les réseaux métiers / tutoriaux disponibles*
 
 [https://framagroupes.org/sympa/info/qualcoder-fr](https://framagroupes.org/sympa/info/qualcoder-fr)
+
 [https://qualcoder-org.github.io/doc/fr](https://qualcoder-org.github.io/doc/fr)
 
 
