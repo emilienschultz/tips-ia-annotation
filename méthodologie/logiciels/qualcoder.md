@@ -54,6 +54,8 @@ Possibilité de lancer aussi directement des sources
 
 *- Degré d'interopérabilité : formats d'échange des données, import et export*
 
+TODO
+
 
 ## Communauté
 
@@ -70,8 +72,11 @@ Possibilité de lancer aussi directement des sources
 
 Le travail sur le même projet ne peut pas se faire directement et en même temps. Il est possible de collaborer sur un même projet étape par étape en partageant les fichiers entre les différents utilisateurs. Avec des possibilités de comparaison des annotations.
 
+Possiblité de collaboration : extension existe pour fusionner deux projets ensemble (enrichir un projet d'un autre). Faire attention à la compatibilité des grilles d'annotation.
+
 
 ## IA
 
 *- Place de l'IA dans le logiciel : présent ou pas ; optionnel (et désactivable) ou au coeur de l'outil, possibilité de choisir les modèles utilisés, outil augmenté par l'IA ou outil pensé pour l'IA*
 
+TODO
