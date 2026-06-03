@@ -9,7 +9,8 @@ Deux types d'interventions:
 
 Prochaine réunion : début juin pour le faire point
 
-- Initier la fiche de LabelStudio : Émilien
+- Initier la fiche de LabelStudio : Émilien, Léo
+- Initier la fiche Doccano : Émilien, Léo
 - TODO IA sur QualCoder : Adrien
 - Initier la fiche sur TXM : Sylvain
 - Initier la fiche Elan : Flora
