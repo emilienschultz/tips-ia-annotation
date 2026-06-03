@@ -28,11 +28,16 @@ Rétro planning : fin décembre clôture
 - réunion fin août de mutualisation collective
 - décembre 2026 : première version du rapport
 
-## Ressources
+## Références
 
-- liste https://github.com/zenml-io/awesome-open-data-annotation 
-- Text Annotation Tools: A Comprehensive Review and Comparative Analysis
-L Colucci Cante, S D'Angelo, B Di Martino… - … Conference on Complex …, 2024
+- Pannitto, Ludovica, Kaja Dobrovoljc Zor, et Bruno Guillaume. 2026. « Survey of Tools for Manual Linguistic Annotation: Supporting Diversity through Interactive Exploration ». Article de colloque, LREC. Proceedings of the Fifteenth Language Resources and Evaluation Conference.
+- Sprengholz, Philipp. 2026. « Annotaid: A Browser-Based Tool for LLM-Assisted Qualitative Coding of Open Text ». SoftwareX 34 (juin): 102702.
+- Schroeder, Hope, Deb Roy, et Jad Kabbara. 2025. « Just Put a Human in the Loop? Investigating LLM-Assisted Annotation for Subjective Tasks ». Association for Computational Linguistics.
+- Text Annotation Tools: A Comprehensive Review and Comparative Analysis L Colucci Cante, S D'Angelo, B Di Martino… - … Conference on Complex …, 2024
 - Exploring large language models for qualitative data analysis. In Proceedings of the 4th International Conference on Natural Language Processing for Digital Humanities
 - Moncada, Marie. « Should We Use NVivo or Excel for Qualitative Data Analysis? » Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique 165‑166, nᵒ 1‑2 (avril 2025): 186‑211. https://doi.org/10.1177/07591063251317084.
 - Rioufreyt T., 2019, « Introduction – Special issue : L’outil et la méthode. Des fonctionnalités techniques des CAQDAS à leurs usages méthodologiques », Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique, 143, 1, p. 7‑27. https://doi.org/10.1177/0759106319852886
+
+## Ressources
+
+- liste d'outils https://github.com/zenml-io/awesome-open-data-annotation 
