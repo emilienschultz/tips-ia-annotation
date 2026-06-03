@@ -25,6 +25,8 @@ Rétro planning : fin décembre clôture
 
 - fin avril/mai, réunion de calage et distribution des tâches
 - juin/juillet/août : avancer les fiches logiciels/persona
+    - initier toutes les fiches logiciels
+    - pour chaque persona, aborder de manière narrative la pertinence des logiciels
 - réunion fin août de mutualisation collective
 - décembre 2026 : première version du rapport
 
