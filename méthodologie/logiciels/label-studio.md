@@ -36,7 +36,8 @@ L'installation est possible via pip / brew / git / docker sous des machines Linu
 - Docker pourra simplifier le déploiement d'une instance collective en ligne mais requiert une familiarité avec l'outil et des compétences en administration système.
 - Possible de cloner directement le repo (mais autant passer par les autres options sauf cas spécifiques)
 
-Le niveau de complexité est donc modéré : très raisonnable pour un profil ayant déjà manipulé Python et un terminal, un peu plus ardu pour les non-techniciens (pas d'installation "automatique" de l'application depuis un .dmg ou .exe). La mise en production sur un serveur partagé pour une équipe nécessite des compétences en administration système.
+Le niveau de complexité est donc modéré : très raisonnable pour un profil ayant déjà manipulé Python et un terminal, un peu plus ardu pour les non-techniciens (pas d'installation "automatique" de l'application depuis un .dmg ou .exe). La mise en production sur un serveur partagé pour une équipe nécessite des compétences en administration système.  
+**Update :** c'est pas la même limonade s'il est question de connecter soi-même le truc a des modèles qu'il faut faire tourner sur depuis leur label-studio-ml-backend avec docker
 
 N.B. : La doc n'est pas toujours très cohérente sur la version de python minimale nécessaire : selon les endroits sont mentionnées la 3.6 ; 3.8 ; 3.10. L'installation via pip a ici marché sans problème avec python 3.10.
 
