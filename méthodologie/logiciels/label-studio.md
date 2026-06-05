@@ -17,6 +17,8 @@ Il couvre un large type de tâches d'annotation : texte (classification, NER), i
 Il fonctionne sur le principe client-serveur (un serveur héberge l'instance et les annotateurs interagissent via leur navigateur web) et permet une gestion multi-utilisateurs pour travailler à plusieurs sur un projet.  
 Étant développé par une société commerciale, son développement et sa maintenance bénéficient d'un soutien actif.
 
+TODO :annotation pour entrainer des modèles // annotation "massive"
+
 ## Licence
 
 *Conditions légale d'adoption : licence du logiciel \& prix*
@@ -72,6 +74,7 @@ Les formats d'export sont des standards connus (json, csv, tsv), ou ?moins connu
 La création de projets et de schémas d'annotation est facilité par l'interface d'import de données et l'existence de templates de labellisation, mais ce n'est pas évident de s'y retrouver (énormément de possibilités sans que l'on soit super guidé sur ce qui marche ou non et pourquoi).  
 Ex : j'ai un projet qui une fois configuré ne m'affiche que le titre de la colone, un autre qui marche nickel, visiblement parce que le csv lui va pas mais sans aucun indice de ce qui irait pas (ni que ça va pas).
 
+TODO : on peut créer son "template"
 TODO : aviser des formats spécifiques aux données que je maîtrise peu  
 TODO : il nous faudrait une catégorie prise en main pour préciser ça peut-être
 
@@ -144,9 +147,15 @@ La majorité des supports et de la communauté est anglophone.
 TODO : quid de la communauté francophone ?  
 TODO : préciser le degré d'adoption communautaire (hors commercial ?)
 
+TODO :
+- remarque émilien sur pas tutoriels au dela de la boite peut donner indice sur adoption communautaire
+- Voir citations dans littérature.
+
 ## Collaboratif
 
 **aviser si précise ici ou dans installation (ou les deux)** Dans le cas de l'usage en ligne : il n'existe pas d'instance publique mutualisée gratuite et il faut soit l'installer soi-même, soit souscrire à l'offre cloud payante de HumanSignal (Starter Cloud ou Enterprise).
+
+TODO : noter sspcloud / onyxia 
 
 TODO : vérifier les cas d'usages multiutilisateurs, résolution de conflits, etc.
 
@@ -158,3 +167,13 @@ L'utilisation de l'IA n'est pas obligatoire et l'on peut rester sur une volonté
 Mais plusieurs templates de labellisation montrent une orientation forte vers les workflows RLHF, les pipelines ML/IA, y compris l'évaluation de LLMs et leur fine-tuning, RAG, l'évaluation de chatbot, etc.
 
 TODO : affiner partie IA après tests
+
+## Prise en main
+
+…
+Dire que c'est bien mais les points d'achoppement et difficultés prise en main car.
+…
+
+## Hot-Take
+
+Peut tout faire. Mais trop.
