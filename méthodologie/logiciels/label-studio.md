@@ -40,7 +40,7 @@ SI on veut images plus basique :
 
 ## Description générale
 
-*Logiciel (touffu) d'annotation multimodale destiné à l'annotation collaborative de grands corpus (texte, image, audio, vidéo, etc.).*
+*Logiciel (touffu) d'annotation multimodale destiné à l'annotation collaborative de grands corpus : texte, image, audio, vidéo, etc.*
 
 Label Studio est un logiciel d'annotation multimodale qui fonctionne sur le principe client-serveur et permet de travailler à plusieurs sur un projet. Il est pensé pour l'annotation de grands volumes de données, notamment dans une perspective d'entraînement de modèles. Il couvre un large type de tâches : texte (classification, NER), images (détection d'objets, segmentation, classification), audio (interface de transcription, diarisation des locuteurs), séries temporelles, vidéo, PDF, etc.
 
