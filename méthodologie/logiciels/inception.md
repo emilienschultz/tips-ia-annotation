@@ -24,11 +24,7 @@ INCEpTION est une application open source d'annotation de textes destinée à de
 
 ## Licence
 
-*Conditions légale d'adoption : licence du logiciel \& prix*
-
-PHRASE DE SYNTHESE
-
-DETAILS
+*Logiciel libre sous licence Apache-2.0*
 
 ## Installation
 
@@ -36,44 +32,42 @@ DETAILS
 
 Possibilité de tester en ligne puis de déployer une instance avec Docker, l'installation complète est possible.
 
-Le logiciel repose sur une architecture assez lourde (Java, Base de donnée, etc.). Le déploiement en production directement peut être assez compliquée.
+Le logiciel repose sur une architecture assez lourde (Java, Base de donnée, etc.). Le déploiement en production directement peut être assez compliquée. [Une page très claire explique les différentes démarches dans la documentation](https://inception-project.github.io/releases/41.0/docs/admin-guide.html#sect_installation).
 
 ## Corpus 
 
-*Les corpus possibles traitables : Texte, Audio, Video, Images, PDF, Multimodal, Réseaux sociaux, etc.*
+*Le logiciel est dédié pour les documents textuels avec un focus documents et non pas corpus tabulaire.¨
 
-Le logiciel est dédié pour les documents textuels avec un focus documents et non pas corpus tabulaire.
-
-DETAILS
+Le logiciel accepte de très nombreux de formats de documents (mais pas de données tabulaires, ni CSV, ni Excel). Il est pensé pour l'intégration de documents contenus dans un dossier : CoNLL, BioC, HTML, PDF, Text, différents formats de JSON, UIMA, WebAnno, XML, ...
 
 ## Interopérabilité
 
-*Degré d'interopérabilité : formats d'échange des données, import et export*
+*De nombreux formats permettent de connecter le logiciel aux pratiques métiers*
 
-PHRASE DE SYNTHESE
-
-DETAILS
+Il est possible de se connecter à de nombreux formats spécialisés. Il est possible d'exporter l'ensemble du projet. Il y a des formats spécifiques pour l'import/export des annotations (UIMA). Il est possible pour chaque document de l'exporter, ou exporter l'ensemble des documents annotés.
 
 ## Communauté
 
-*Support communautaire à l'usage francophone : où trouver de l'aide / diffusé dans les réseaux métiers / tutoriaux disponibles*
+*Logiciel largement utilisé dans de gros projets et activement maintenu par sa communauté de développement et par l'institution *
 
-PHRASE DE SYNTHESE
+L'article de référence de l'outil paru en 2018 est cité 719, et le logiciel est utilisé en routine dans des projets européens et dans des institutions. [De nombreuses publications sont associées.](https://inception-project.github.io/publications/)
 
-DETAILS
+Une documentation très complète tant sur la dimension usage que technique. Des tutoriaux, comme [celui de Mate-SHS](https://www.youtube.com/watch?v=dn5GGGxGbNA).
 
 ## Collaboratif
 
-*Collaboratif : conditions de collaboration, extension de la collaboration*
+*Le collaboratif est au coeur du logiciel avec de nombreuses gestions des droits et de l'accès aux documents*
 
-PHRASE DE SYNTHESE
+Le logiciel intègre des fonctions pour dispatcher des documents, que ce soit à des annotateurs avec compte ou anonymes, de monitorer les annotations, d'avoir une gestion d'expiration.
 
-DETAILS
+De nombreuses métriques sont disponibles pour mesurer l'accord inter-annotateur, et arbitrer sur les désaccords. Une fonction d'arbitrage dédiée existe (Curation).
+ 
+
 
 ## IA
 
-*Place de l'IA dans le logiciel : présent ou pas ; optionnel (et désactivable) ou au coeur de l'outil, possibilité de choisir les modèles utilisés, outil augmenté par l'IA ou outil pensé pour l'IA*
+*INCEpTION utilise la notion de recommanders pour greffer différentes stratégies d'annotation automatique basée sur des API externes*
 
-PHRASE DE SYNTHESE
+Différentes stratégies pour accélérer et assister l'annotation. Le cœur du système est le recommender : des modèles qui apprennent des annotations déjà faites (ou de sources externes) pour suggérer de nouvelles annotations affichées en gris dans le texte, qu'on accepte d'un simple clic ou rejette d'un double clic. Les suggestions ne deviennent des annotations qu'après validation. 
 
-Son système de recommandation intégré apprend des annotations déjà réalisées pour suggérer de nouvelles annotations au fil du travail, et une fonction d'apprentissage actif aide à traiter en priorité les cas incertains. 
+Différents types classiques (String Matcher avec gazetteers, classifieurs OpenNLP pour POS/NER/catégorisation), modèles de langage génératifs encore expérimentaux (Ollama, ChatGPT, Azure OpenAI), ainsi que des recommenders externes via API. Intégration d'une auto-évaluation (scores F1, précision, rappel, matrice de confusion) et peuvent s'activer automatiquement selon un seuil de qualité. Fonction d'Active Learning et de Concept/Entity Linking (désambiguïsation contextuelle et suggestions du Named Entity Linker pour relier les mentions à une base de connaissances) + depuis la v41 un Assistant expérimental basé sur un LLM doté d'outils de contexte et de recommandation. 
