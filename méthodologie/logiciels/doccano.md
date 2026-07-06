@@ -1,6 +1,6 @@
 # Doccano
 
-Dernière modification de la fiche : 3/06/2026
+Dernière modification de la fiche : 6/07/2026
 
 Version testée : 1.8.5
 
