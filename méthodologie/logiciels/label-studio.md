@@ -50,7 +50,7 @@ Label Studio est un logiciel d'annotation multimodale qui fonctionne sur le prin
 
 *Logiciel libre sous licence Apache-2.0.*
 
-Il existe également deux versions payantes (Starter Cloud et Enterprise) qui proposent des services complémentaires et des fonctionnalités de gestion d'équipe. Certaines options (format parquet, etc.) ne sont disponibles que dans la version entreprise, mais la "community edition" – libre et gratuite – est pleinement fonctionnelle pour un usage en recherche.
+Il existe également deux versions payantes (Starter Cloud et Enterprise) qui proposent des services complémentaires et des fonctionnalités de gestion d'équipe. Certaines options (format parquet, etc.) ne sont disponibles que dans la version commerciale, mais la "community edition" – libre et gratuite – est pleinement fonctionnelle pour un usage en recherche.
 
 ## Installation
 
