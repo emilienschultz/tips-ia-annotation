@@ -23,8 +23,8 @@ Citer le logiciel :
 > }
 
 <p align="center">
-  <img src="../../img/label_studio_projet.png" alt="Fenêtre principale vue projet de Label-Studio" width="80%" />
-  <img src="../../img/label_studio_annotation.png" alt="Fenêtre principale d'annotation de Label-Studio" width="80%" />
+  <img src="../../img/label_studio_projet.png" alt="Fenêtre principale vue projet de Label-Studio" width="60%" />
+  <img src="../../img/label_studio_annotation.png" alt="Fenêtre principale d'annotation de Label-Studio" width="60%" />
 </p>
 
 <!--
