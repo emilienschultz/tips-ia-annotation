@@ -75,3 +75,8 @@ DETAILS
 PHRASE DE SYNTHESE
 
 DETAILS
+
+
+## Prise en main
+
+*Liste des retours d'expérience des utilisateurs (identifiés pour accepter la dimension subjective)*

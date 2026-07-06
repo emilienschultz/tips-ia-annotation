@@ -30,6 +30,10 @@ Rétro planning : fin décembre clôture
 - réunion fin août de mutualisation collective
 - décembre 2026 : première version du rapport
 
+## Contribuer
+
+Si un logiciel manque, vous pouvez compléter une fiche similaire à [celle-ci](./méthodologie/fiche_vide_logiciels.md) et proposer une *pull request*, ou ouvrir une issue.
+
 ## Références
 
 - Pannitto, Ludovica, Kaja Dobrovoljc Zor, et Bruno Guillaume. 2026. « Survey of Tools for Manual Linguistic Annotation: Supporting Diversity through Interactive Exploration ». Article de colloque, LREC. Proceedings of the Fifteenth Language Resources and Evaluation Conference.
