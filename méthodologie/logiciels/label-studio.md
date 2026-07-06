@@ -8,22 +8,43 @@ Site web : [https://labelstud.io/](https://labelstud.io/)
 
 Code : [https://github.com/HumanSignal/label-studio/](https://github.com/HumanSignal/label-studio/)
 
+Citer le logiciel : **TODO**
+
+> @misc{Label Studio,
+>   title={{Label Studio}: Data labeling software},
+>   url={https://github.com/HumanSignal/label-studio},
+>   note={Open source software available from https://> github.com/HumanSignal/label-studio},
+>   author={
+>     Maxim Tkachenko and
+>     Mikhail Malyuk and
+>     Andrey Holmanyuk and
+>     Nikolai Liubimov},
+>   year={2020-2025},
+> }
+
+<p align="center">
+  <img src="../../img/label_studio_projet.png" alt="Fenêtre principale vue projet de Label-Studio" width="48%" />
+  <img src="../../img/label_studio_annotation.png" alt="Fenêtre principale d'annotation de Label-Studio" width="48%" />
+</p>
+
+<!--
+SI on veut images plus basique :
+![Fenêtre principale vue projet de Label-Studio](../../img/label_studio_projet.png)
+![Fenêtre principale d'annotation de Label-Studio](../../img/label_studio_annotation.png)
+ -->
 
 ## Description générale
 
-*À quoi sert le logiciel ? : les principales fonctionnalités du logiciel, sa philosophie transversale*
+*(Gros) Logiciel d'annotation multimodale destiné à l'annotation collaborative de grands corpus (texte, image, audio, vidéo, etc.).*
+<!-- ou Logiciel (touffu) etc.-->
 
-Label Studio est un logiciel d'annotation multimodale développé par la société HumanSignal. Il est pensé pour l'annotation de grands volumes de données, notamment dans une perspective d'entraînement de modèles.
+Label Studio est un logiciel d'annotation multimodale qui fonctionne sur le principe client-serveur et permet de travailler à plusieurs sur un projet. Il est pensé pour l'annotation de grands volumes de données, notamment dans une perspective d'entraînement de modèles. Il couvre un large type de tâches : texte (classification, NER), images (détection d'objets, segmentation, classification), audio (interface de transcription, diarisation des locuteurs), séries temporelles, vidéo, PDF, etc.
 
-Il couvre un large type de tâches d'annotation : texte (classification, NER), images (détection d'objets, segmentation, classification), audio (interface de transcription, diarisation des locuteurs), séries temporelles, vidéo, PDF, etc.  
-Il fonctionne sur le principe client-serveur (un serveur héberge l'instance et les annotateurs interagissent via leur navigateur web) et permet une gestion multi-utilisateurs pour travailler à plusieurs sur un projet.  
-Il est développé par une société commerciale et son développement et sa maintenance bénéficient d'un soutien actif.
+<!-- j'ai passé la partie soutien commercial dans la section communauté -->
 
 ## Licence
 
-*Conditions légales d'adoption : licence du logiciel \& prix*
-
-Logiciel libre sous licence Apache-2.0.
+*Logiciel libre sous licence Apache-2.0.*
 
 Il existe également deux versions payantes (Starter Cloud et Enterprise) qui proposent des services complémentaires et des fonctionnalités de gestion d'équipe.
 
@@ -31,10 +52,9 @@ NB : Certaines options (format parquet, etc.) ne sont disponibles que dans la ve
 
 ## Installation
 
-*Conditions matérielles d'usage : sous forme de service (oui/non et sur quel serveur en termes de sécurité ; limite en termes de navigateur / adaptabilité smartphone) ; logiciel à installer (sur quel OS ? Windows, Mac, Linux) ; Niveau de complexité, notamment ligne de commande ?*
+*Label Studio peut être installé localement ou déployé sur un serveur distant.*
 
-Label Studio peut être installé localement ou déployé sur un serveur distant.
-
+<!-- SIMPLIFIER ICI -->
 L'installation est possible via pip / brew / git / docker sous des machines Linux, Mac ou Windows  :
 - L'installation via pip suppose de savoir ouvrir un terminal et de passer par une ligne de commande, mais elle est facile.
 - Une option Homebrew est disponible pour macOS.
@@ -44,7 +64,7 @@ Le niveau de complexité est donc modéré : raisonnable pour un profil ayant d�
 
 ## Corpus
 
-*Les corpus possibles traitables : Texte, Audio, Vidéo, Images, PDF, Multimodal, Réseaux sociaux, etc.*
+*Larges possibilités d'import de corpus de types variés (texte, image, vidéo, etc.)*
 
 Label Studio permet des données textuelles, des images, de l'audio, de la vidéo, des pdf, etc. Les formats d'entrée sont variés :
 
@@ -58,33 +78,33 @@ Label Studio permet des données textuelles, des images, de l'audio, de la vidé
 
 ## Interopérabilité
 
-*Degré d'interopérabilité : formats d'échange des données, import et export*
+*Le logiciel permet l'import/export de données multimodales dans de nombreux formats standards et spécialisés*
 
 Les formats d'import (voir ci-dessus) sont très variés.  
 Les formats d'export sont des standards connus (json, csv, tsv), ou plus spécifiques selon le type de données (CONLL2003, COCO, YOLO, Brush).
 
 ## Communauté
 
-*Support communautaire à l'usage francophone : où trouver de l'aide / diffusé dans les réseaux métiers / tutoriels disponibles*
+*Un logiciel avec une documentation riche en raison de son soutien commercial et de nombreux supports en anglais, mais moins investit par la communauté de recherche francophone*
 
 - La documentation officielle : https://labelstud.io/guide/
 - Des tutoriels : https://labelstud.io/tutorials/
 
-Le projet a 27k étoiles sur GitHub et, étant développé par une entreprise, bénéficie de sa force de frappe commerciale pour sa [documentation](https://labelstud.io/guide/), la création de [tutoriels](https://labelstud.io/tutorials/), un groupe d'échange sur [Slack](https://slack.labelstud.io/), etc.
+Le projet a 27k étoiles sur GitHub et, étant développé par une entreprise (HumanSignal), il bénéficie de sa force de frappe commerciale pour sa [documentation](https://labelstud.io/guide/), la création de [tutoriels](https://labelstud.io/tutorials/), un groupe d'échange sur [Slack](https://slack.labelstud.io/), etc.
 
-La majorité des supports et de la communauté est anglophone.  
-L'adoption par la communauté universitaire francophone semble plus en retrait.
+La majorité des supports et de la communauté est anglophone. L'adoption par la communauté universitaire francophone semble plus en retrait.
 
 ## Collaboratif
 
-Le logiciel est largement pensé vers les tâches d'annotation multi-utilisateurs et il est possible de collaborer à plusieurs sur un projet.
+*Le logiciel est largement pensé vers les tâches d'annotation multi-utilisateurs et il est possible de collaborer à plusieurs sur un projet.*
 
-Dans le cas de l'usage collaboratif en ligne : il n'existe pas d'instance publique mutualisée gratuite compatible avec des données de recherche sensibles. Une instance est néanmoins disponible dans la stack Onyxia du [datalab sspcloud de l'INSEE](https://datalab.sspcloud.fr), mais la plateforme est limitée aux "données publiques et données usuelles (données de travail sans sensibilité particulière)".  
+Dans le cas de l'usage collaboratif en ligne : il n'existe pas d'instance publique mutualisée gratuite compatible avec des données de recherche sensibles. Une instance est néanmoins disponible dans la stack Onyxia du [datalab sspcloud de l'INSEE](https://datalab.sspcloud.fr), mais la plateforme est limitée aux "données publiques et données usuelles (données de travail sans sensibilité particulière)".
+
 Il reste possible d'installer soi-même une instance en ligne si l'on a accès à des serveurs et aux compétences nécessaires (ou de souscrire à l'offre cloud payante de HumanSignal – mais il faudra dans ce cas vérifier les conditions concernant les données sensibles).
 
 ## IA
 
-*Place de l'IA dans le logiciel : présent ou pas ; optionnel (et désactivable) ou au coeur de l'outil, possibilité de choisir les modèles utilisés, outil augmenté par l'IA ou outil pensé pour l'IA*
+*L'IA repose sur des modèles externes et reste optionnelle, avec une intégration poussée pour l'assistance à l'annotation et les workflows d'entraînement.*
 
 L'utilisation de l'IA n'est pas obligatoire et l'on peut rester sur une volonté d'annotation purement manuelle. Mais plusieurs templates de labellisation montrent une orientation forte vers les workflows RLHF, les pipelines ML/IA, y compris l'évaluation de LLMs et leur fine-tuning, RAG, l'évaluation de chatbots, etc.  
 NB : L'utilisation des possibilités d'IA suppose de connecter des modèles depuis une installation d'un backend ML avec Docker.
