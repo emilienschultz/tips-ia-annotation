@@ -8,20 +8,6 @@ Site web : [https://labelstud.io/](https://labelstud.io/)
 
 Code : [https://github.com/HumanSignal/label-studio/](https://github.com/HumanSignal/label-studio/)
 
-> @misc{doccano,
->  title={{doccano}: Text Annotation Tool for Human},
->  url={https://github.com/doccano/doccano},
->  note={Software available from https://github.com/doccano/doccano},
->  author={
->    Hiroki Nakayama and
->    Takahiro Kubo and
->    Junya Kamura and
->    Yasufumi Taniguchi and
->    Xu Liang},
->  year={2018},
->}
-
-[Fenêtre principale d'annotation de Doccano](../../img/doccano.png)
 
 ## Description générale
 
