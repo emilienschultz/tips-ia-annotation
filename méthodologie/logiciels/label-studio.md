@@ -8,7 +8,7 @@ Site web : [https://labelstud.io/](https://labelstud.io/)
 
 Code : [https://github.com/HumanSignal/label-studio/](https://github.com/HumanSignal/label-studio/)
 
-Citer le logiciel : **TODO**
+Citer le logiciel :
 
 > @misc{Label Studio,
 >   title={{Label Studio}: Data labeling software},
@@ -23,8 +23,8 @@ Citer le logiciel : **TODO**
 > }
 
 <p align="center">
-  <img src="../../img/label_studio_projet.png" alt="Fenêtre principale vue projet de Label-Studio" width="48%" />
-  <img src="../../img/label_studio_annotation.png" alt="Fenêtre principale d'annotation de Label-Studio" width="48%" />
+  <img src="../../img/label_studio_projet.png" alt="Fenêtre principale vue projet de Label-Studio" width="80%" />
+  <img src="../../img/label_studio_annotation.png" alt="Fenêtre principale d'annotation de Label-Studio" width="80%" />
 </p>
 
 <!--
@@ -35,8 +35,7 @@ SI on veut images plus basique :
 
 ## Description générale
 
-*(Gros) Logiciel d'annotation multimodale destiné à l'annotation collaborative de grands corpus (texte, image, audio, vidéo, etc.).*
-<!-- ou Logiciel (touffu) etc.-->
+*Logiciel (touffu) d'annotation multimodale destiné à l'annotation collaborative de grands corpus (texte, image, audio, vidéo, etc.).*
 
 Label Studio est un logiciel d'annotation multimodale qui fonctionne sur le principe client-serveur et permet de travailler à plusieurs sur un projet. Il est pensé pour l'annotation de grands volumes de données, notamment dans une perspective d'entraînement de modèles. Il couvre un large type de tâches : texte (classification, NER), images (détection d'objets, segmentation, classification), audio (interface de transcription, diarisation des locuteurs), séries temporelles, vidéo, PDF, etc.
 
@@ -46,9 +45,7 @@ Label Studio est un logiciel d'annotation multimodale qui fonctionne sur le prin
 
 *Logiciel libre sous licence Apache-2.0.*
 
-Il existe également deux versions payantes (Starter Cloud et Enterprise) qui proposent des services complémentaires et des fonctionnalités de gestion d'équipe.
-
-NB : Certaines options (format parquet, etc.) ne sont disponibles que dans la version entreprise, mais la "community edition" – libre et gratuite – est pleinement fonctionnelle pour un usage en recherche.
+Il existe également deux versions payantes (Starter Cloud et Enterprise) qui proposent des services complémentaires et des fonctionnalités de gestion d'équipe. Certaines options (format parquet, etc.) ne sont disponibles que dans la version entreprise, mais la "community edition" – libre et gratuite – est pleinement fonctionnelle pour un usage en recherche.
 
 ## Installation
 
@@ -90,9 +87,7 @@ Les formats d'export sont des standards connus (json, csv, tsv), ou plus spécif
 - La documentation officielle : https://labelstud.io/guide/
 - Des tutoriels : https://labelstud.io/tutorials/
 
-Le projet a 27k étoiles sur GitHub et, étant développé par une entreprise (HumanSignal), il bénéficie de sa force de frappe commerciale pour sa [documentation](https://labelstud.io/guide/), la création de [tutoriels](https://labelstud.io/tutorials/), un groupe d'échange sur [Slack](https://slack.labelstud.io/), etc.
-
-La majorité des supports et de la communauté est anglophone. L'adoption par la communauté universitaire francophone semble plus en retrait.
+Le projet a 27k étoiles sur GitHub et, étant développé par une entreprise (HumanSignal), il bénéficie de sa force de frappe commerciale pour sa [documentation](https://labelstud.io/guide/), la création de [tutoriels](https://labelstud.io/tutorials/), un groupe d'échange sur [Slack](https://slack.labelstud.io/), etc. La majorité des supports et de la communauté est anglophone. L'adoption par la communauté universitaire francophone semble plus en retrait.
 
 ## Collaboratif
 
