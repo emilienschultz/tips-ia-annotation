@@ -22,7 +22,7 @@ Citer le logiciel :
 >   year={2020-2025},
 > }
 
-<p style="display:flex; justify-content:center; align-items:flex-start; gap:12px; margin:0;">
+<p style="display:flex; flex-direction:column; align-items:center; gap:12px; margin:0;">
   <img src="../../img/label_studio_projet.png" alt="Fenêtre principale vue projet de Label-Studio" width="60%" />
   <img src="../../img/label_studio_annotation.png" alt="Fenêtre principale d'annotation de Label-Studio" width="60%" />
 </p>
