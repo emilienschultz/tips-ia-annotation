@@ -29,7 +29,7 @@ Citer le logiciel :
 
 *Petit logiciel épuré en Python pour réaliser les principales tâches d'annotation de corpus textuels.*
 
-Logiciel d'annotation "pour les humains" qui fonctionne avec un serveur et un client web par le navigateur, et permet de travailler à plusieur sur un même projet. Il permet différents types de tâches : classification de textes, de séquences textuelles, d'images, d'objets (segmentation). Il est multilingue avec une interface fluide pour faciliter l'annotation des éléments. Néanmoins, il semble moins maintenu et ne parait pas avoir une dynamique très forte d'usage dans la recherche. 
+Logiciel d'annotation "pour les humains" qui fonctionne avec un serveur et un client web par le navigateur, et permet de travailler à plusieurs sur un même projet. Il permet différents types de tâches : classification de textes, de séquences textuelles, d'images, d'objets (segmentation). Il est multilingue avec une interface fluide pour faciliter l'annotation des éléments. Néanmoins, il semble moins maintenu et ne parait pas avoir une dynamique très forte d'usage dans la recherche. 
 
 ## Licence
 
