@@ -78,6 +78,7 @@ Différents types classiques (String Matcher avec gazetteers, classifieurs OpenN
 ## Prise en main
 
 Retour d'expérience (Sandrine Ollinger) :
+
 Le logiciel est complet, il permet de centraliser tout le matériel d'une campagne d'annotation. Un temps de prise en main est indispensable et il faut bien penser sa campagne avant de se lancer dans la création d'un projet. Il peut être utile de prendre une demi-heure avec les annotateurs, en début de campagne, pour les aider à se repérer dans l'interface et leur conseiller quelques paramètres. Une fois tout mis en place, on trouve tout ce dont on a besoin. Les différentes fonctionnalités post-annotation (Curation, Explorer, Agreement) sont très utiles. 
 
 J'utilise une instance installée et maintenue par un service informatique et partagée par une communauté répartie sur toute la France.
