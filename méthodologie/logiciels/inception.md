@@ -16,9 +16,7 @@ Citer le logiciel :
 
 ## Description générale
 
-*A quoi sert le logiciel ? : les principales fonctionnalité du logiciel, sa philosophie transversale*
-
-Inception est un logiciel d'annotation dédié à annoter collaborativement des documents avec un système de gestion des droits et d'intégration de recommandations automatiques.
+*Inception est un logiciel d'annotation dédié à annoter collaborativement des documents avec un système de gestion des droits et d'intégration de recommandations automatiques.*
 
 INCEpTION est une application open source d'annotation de textes destinée à des tâches d'analyse linguistique et sémantique sur des documents écrits, accessible par une interface web. Plusieurs utilisateurs peuvent travailler simultanément sur un même projet, et une seule installation peut héberger de nombreux projets en parallèle. L'outil s'organise autour de projets configurables où l'on définit des couches d'annotation (spans de texte, relations, chaînes de coréférence), des jeux d'étiquettes (tagsets) et des bases de connaissances permettant de lier les annotations à des entités externes comme Wikidata. INCEpTION gère également l'ensemble du cycle de vie d'un projet d'annotation : répartition des tâches entre annotateurs, suivi de la charge de travail, mesure de l'accord inter-annotateurs, et curation (adjudication) pour réconcilier les annotations divergentes de plusieurs personnes en un résultat final unique. Il propose enfin des fonctionnalités avancées comme la recherche dans les annotations, la constitution de corpus à partir de dépôts documentaires externes, et l'import/export dans de nombreux formats.
 
@@ -27,8 +25,6 @@ INCEpTION est une application open source d'annotation de textes destinée à de
 *Logiciel libre sous licence Apache-2.0*
 
 ## Installation
-
-*Conditions matérielles d'usage : sous forme de service (oui/non et sur quel serveur en terme de sécurité ; limite en terme de navigateur / adaptabilité smartphone) ; logiciel à installer (sur quel OS ? Windows, Mac, Linux) ; Niveau de complexité, notamment ligne de commande ? Existance d'une logique de plugin*
 
 Possibilité de tester en ligne puis de déployer une instance avec Docker, l'installation complète est possible.
 
@@ -48,7 +44,7 @@ Il est possible de se connecter à de nombreux formats spécialisés. Il est pos
 
 ## Communauté
 
-*Logiciel largement utilisé dans de gros projets et activement maintenu par sa communauté de développement et par l'institution *
+*Logiciel largement utilisé dans de gros projets et activement maintenu par sa communauté de développement et par l'institution*
 
 L'article de référence de l'outil paru en 2018 est cité 719, et le logiciel est utilisé en routine dans des projets européens et dans des institutions. [De nombreuses publications sont associées.](https://inception-project.github.io/publications/)
 

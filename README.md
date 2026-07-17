@@ -2,11 +2,12 @@
 
 ## Contexte
 
-- L'annotation de textes est une activité importante en SHS pour interagir avec des données textuelles.
-- Initialement : des humains qui enrichissent des corpus (mince ou profonde)
-- Arrivée des outils de l'apprentissage automatique et de l'approche NLP/IA avec prédiction : annotation pour entrainer des modèles (pratiques IA)
-- Des stratégies d'enrichissements automatiques (IA) intégrés dans les outils & explosion des ergonomies
-- *Constat d'une diversité d'outils répondants à des logiques différentes*
+*Constat d'une diversité d'outils répondants à des logiques différentes qui rendent difficiles le choix pour le traitement de données en sciences sociales*
+
+- L'annotation de textes est une activité importante pour utiliser des contenus textuels.
+- Initialement, l'activité correspondait à des humains qui annotent des corpus
+- Les outils de NLP (règles, apprentissage automatique) et maintenant les usages IA permettent différents degrés d'automatisation
+- Ces formes d'automatisation sont intégrées dans les outils et viennent transformer les pratiques
 
 **Conséquence : des outils très divers allant de l'analyse qualitative (Nvivo, QualCoder) au NLP/IA (Argilla, Labelstudio) intégrant des stratégies d'annotation automatique.**
 
@@ -15,26 +16,25 @@
 **Identifier le lien usages/logiciels pour réaliser de l'annotation en sciences humaines et sociales avec différents niveaux d'intégrations d'automatisation (des heuristiques aux usages "IA").**
 
 - Proposer une grille de lecture pour se repérer dans un paysage d'outils complexes et mouvant des outils d'annotation
-- Spécifique aux tâches des sciences humaines et sociales
+- Garder une entrée spécifique aux tâches des sciences humaines et sociales
 - Produire un document utilisable pour les praticiens pour choisir l'outil qui permettra d'aboutir leur tâche
 - Expliciter les polysémies des deux termes : "annotation" et "IA"
 
-## Calendrier
+## Calendrier prévisionnel
 
-Rétro planning : fin décembre clôture
+Rétro-planning : clôture fin décembre 2026
 
-- fin avril/mai, réunion de calage et distribution des tâches
 - juin/juillet/août : avancer les fiches logiciels/persona
     - initier toutes les fiches logiciels
     - pour chaque persona, aborder de manière narrative la pertinence des logiciels
 - réunion fin août de mutualisation collective
 - décembre 2026 : première version du rapport
 
-## Contribuer
+## Comment contribuer à ce travail ?
 
-Si un logiciel manque, vous pouvez compléter une fiche similaire à [celle-ci](./méthodologie/fiche_vide_logiciels.md) et proposer une *pull request*, ou ouvrir une issue.
+Si un logiciel manque, vous pouvez compléter une fiche similaire à [celle-ci](./méthodologie/fiche_vide_logiciels.md) et proposer une *pull request*, ou ouvrir une issue. L'enjeu est d'avoir un niveau de documentation pratique qui permet à un utilisateur de se décider rapidement sur la pertinence d'un outil.
 
-## Références
+## Références sur l'annotation
 
 - Pannitto, Ludovica, Kaja Dobrovoljc Zor, et Bruno Guillaume. 2026. « Survey of Tools for Manual Linguistic Annotation: Supporting Diversity through Interactive Exploration ». Article de colloque, LREC. Proceedings of the Fifteenth Language Resources and Evaluation Conference.
 - Sprengholz, Philipp. 2026. « Annotaid: A Browser-Based Tool for LLM-Assisted Qualitative Coding of Open Text ». SoftwareX 34 (juin): 102702.
