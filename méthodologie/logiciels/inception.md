@@ -34,7 +34,7 @@ Le logiciel repose sur une architecture assez lourde (Java, Base de donnée, etc
 
 ## Corpus 
 
-*Le logiciel est dédié pour les documents textuels avec un focus documents et non pas corpus tabulaire.¨
+*Le logiciel est dédié aux documents textuels.¨
 
 Le logiciel accepte de très nombreux de formats de documents (mais pas CSV, ni Excel). Il est pensé pour l'intégration de documents contenus dans un dossier : CoNLL, BioC, HTML, PDF, Text, différents formats de JSON, UIMA, WebAnno, XML, ...
 
