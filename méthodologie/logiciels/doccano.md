@@ -71,3 +71,10 @@ Doccano permet de faire de l'annotation multiutilisateur. Il y a plusieurs modes
 *La gestion de l'IA se fait avec des services extérieurs pour prédire des éléments.*
 
 Doccano donne la possibilité de faire de l'auto-annotation en s'appuyant sur une API web externe https://doccano.github.io/doccano/advanced/auto_labelling_config/ (auto-labeling feature). Il est donc possible de construire ses propres annotateurs externes (quelle que soit la technologie) et l'utiliser pour l'annotation.
+
+
+## Prise en main
+
+**Retour d'expérience (Émilien Schultz) :**
+
+C'est un logiciel assez simple et facile de prise en main, qui peut se déployer pour une équipe. L'import des données peut être un peu rugueux d'expérience, mais il est parfait pour minimiser la complexité d'avoir un outil d'annotation rapidement disponible.

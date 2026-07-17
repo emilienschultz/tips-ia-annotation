@@ -16,17 +16,15 @@ Citer le logiciel :
 
 ## Description générale
 
-*A quoi sert le logiciel ? : les principales fonctionnalité du logiciel, sa philosophie transversale*
+*INCEpTION est une plateforme open source d'annotation de textes destinée à des tâches d'analyse linguistique et sémantique sur des documents écrits, accessible par une interface web.* 
 
-*INCEpTION est une plateforme open source d'annotation de textes destinée à des tâches d'analyse linguistique et sémantique sur des documents écrits, accessible par une interface web.* Plusieurs utilisateurs peuvent travailler simultanément sur un même projet, et une seule installation peut héberger de nombreux projets en parallèle. L'outil s'organise autour de projets indépendants, pensés comme autant de campagnes d'annotation, de linguistique de corpus ou de traitement automatique des langues. L'administrateur d'un projet intègre les utilisateurs et leur attribue des rôles parmi les trois possibles : gestionnaire de campagne (manager), annotateur (annotator) et arbitre (curator). Les gestionnaires définissent les jeux d'étiquettes (tagsets), puis les couches d'annotation (layers) ou choisissent parmi ceux proposés par défaut. Ils intègrent les guides d'annotation et les éventuelles bases de connaissances permettant de lier les annotations à des entités externes comme Wikidata directement dans l'interface. Ils importent les documents à annoter et établissent les règles de répartition des documents entre annotateurs. INCEpTION permet de paramétrer une granularité d'annotation allant du caractère à la phrase et d'autoriser ou non les annotations multiples et les chevauchements. Les couches d'annotation peuvent être de trois types : annotation d'empans textuels, de relations entre empans ou de chaînes de relations entre empans. INCEpTION gère l'ensemble du cycle de vie d'une campagne d'annotation : répartition des tâches entre annotateurs, suivi de la charge de travail, mesure de l'accord interannotateurs, et arbitrage (curation) pour réconcilier les annotations divergentes de plusieurs personnes en un résultat final unique. Il propose enfin des fonctionnalités avancées comme la recherche dans les annotations, la constitution de corpus à partir de dépôts documentaires externes, l'import/export dans de nombreux formats et l'intégration de suggestions d'annotations.
+Plusieurs utilisateurs peuvent travailler simultanément sur un même projet, et une seule installation peut héberger de nombreux projets en parallèle. L'outil s'organise autour de projets indépendants, pensés comme autant de campagnes d'annotation, de linguistique de corpus ou de traitement automatique des langues. L'administrateur d'un projet intègre les utilisateurs et leur attribue des rôles parmi les trois possibles : gestionnaire de campagne (manager), annotateur (annotator) et arbitre (curator). Les gestionnaires définissent les jeux d'étiquettes (tagsets), puis les couches d'annotation (layers) ou choisissent parmi ceux proposés par défaut. Ils intègrent les guides d'annotation et les éventuelles bases de connaissances permettant de lier les annotations à des entités externes comme Wikidata directement dans l'interface. Ils importent les documents à annoter et établissent les règles de répartition des documents entre annotateurs. INCEpTION permet de paramétrer une granularité d'annotation allant du caractère à la phrase et d'autoriser ou non les annotations multiples et les chevauchements. Les couches d'annotation peuvent être de trois types : annotation d'empans textuels, de relations entre empans ou de chaînes de relations entre empans. INCEpTION gère l'ensemble du cycle de vie d'une campagne d'annotation : répartition des tâches entre annotateurs, suivi de la charge de travail, mesure de l'accord interannotateurs, et arbitrage (curation) pour réconcilier les annotations divergentes de plusieurs personnes en un résultat final unique. Il propose enfin des fonctionnalités avancées comme la recherche dans les annotations, la constitution de corpus à partir de dépôts documentaires externes, l'import/export dans de nombreux formats et l'intégration de suggestions d'annotations.
 
 ## Licence
 
 *Logiciel libre sous licence Apache-2.0*
 
 ## Installation
-
-*Conditions matérielles d'usage : sous forme de service (oui/non et sur quel serveur en terme de sécurité ; limite en terme de navigateur / adaptabilité smartphone) ; logiciel à installer (sur quel OS ? Windows, Mac, Linux) ; Niveau de complexité, notamment ligne de commande ? Existance d'une logique de plugin*
 
 Possibilité de tester en ligne puis de déployer une instance avec Docker, l'installation complète est possible.
 
@@ -48,7 +46,7 @@ Il est possible de se connecter à de nombreux formats spécialisés. Il est pos
 
 ## Communauté
 
-*Logiciel largement utilisé dans de gros projets et activement maintenu par sa communauté de développement et par l'institution *
+*Logiciel largement utilisé dans de gros projets et activement maintenu par sa communauté de développement et par l'institution*
 
 L'article de référence de l'outil paru en 2018 est cité 719, et le logiciel est utilisé en routine dans des projets européens et dans des institutions. [De nombreuses publications sont associées.](https://inception-project.github.io/publications/)
 
