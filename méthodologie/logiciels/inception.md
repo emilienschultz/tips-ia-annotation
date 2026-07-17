@@ -36,9 +36,7 @@ Le logiciel repose sur une architecture assez lourde (Java, Base de donnée, etc
 
 *Le logiciel est dédié pour les documents textuels avec un focus documents et non pas corpus tabulaire.¨
 
-**Ici il faudra qu'on discute : CoNLL et WabAnno sont plutôt du genre tabulaires, même si je vois bien pourquoi tu les exclus de cette catégorie**
-
-Le logiciel accepte de très nombreux de formats de documents (mais pas de données tabulaires, ni CSV, ni Excel). Il est pensé pour l'intégration de documents contenus dans un dossier : CoNLL, BioC, HTML, PDF, Text, différents formats de JSON, UIMA, WebAnno, XML, ...
+Le logiciel accepte de très nombreux de formats de documents (mais pas CSV, ni Excel). Il est pensé pour l'intégration de documents contenus dans un dossier : CoNLL, BioC, HTML, PDF, Text, différents formats de JSON, UIMA, WebAnno, XML, ...
 
 Il est possible d'importer des documents comportant déjà des annotations. Dans ce cas, les couches d'annotations et les jeux d'étiquettes associés doivent avoir été décrits préalablement à l'import.
 
