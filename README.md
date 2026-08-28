@@ -21,6 +21,8 @@ Remarque en plus : il y a aussi un développement de beaucoup de petits outils d
 - Garder une entrée spécifique aux tâches des sciences humaines et sociales
 - Produire un document utilisable pour les praticiens pour choisir l'outil qui permettra d'aboutir leur tâche
 - Expliciter les polysémies des deux termes : "annotation" et "IA"
+- Privilégier des terminologies génériques plutôt que de surspécialiser sur des logiciels particuliers (éviter les antonomases)
+- Privilégier les logiciels libres en raison de leur rôle dans la reproductibilité des connaissances scientifiques
 
 ## Calendrier prévisionnel
 
