@@ -1,10 +1,10 @@
 # Qualcoder
 
-Dernière modification de la fiche : 01/04/2026
+Dernière modification de la fiche : 28/08/2026
 
-Version testée : 3.8.2
+Version testée : 4.0
 
-Site web : [https://qualcoder.wordpress.com/](https://qualcoder.wordpress.com/)
+Site web : [https://qualcoder.org/](https://qualcoder.org/)
 
 Code : [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
@@ -39,28 +39,30 @@ Possibilité de lancer aussi directement des sources
 - de l'audio
 - des images
 - les export de logiciel d'enquête Limesurvey (métadonnées de l'enquête et analyse des questions ouvertes)
-- données tabulaires ?
+- données tabulaires
 
 
 ## Interopérabilité
 
-TODO
+Prends en compte le standard REFI-QDA (donc compatible atlas.ti et MaxQDA à priori).
 
 
 ## Communauté
 
 [https://framagroupes.org/sympa/info/qualcoder-fr](https://framagroupes.org/sympa/info/qualcoder-fr)
 
-[https://qualcoder-org.github.io/doc/fr](https://qualcoder-org.github.io/doc/fr)
+[https://qualcoder.org/doc/fr](https://qualcoder.org/doc/fr)
 
 
 ## Collaboratif
 
 Le travail sur le même projet ne peut pas se faire directement et en même temps. Il est possible de collaborer sur un même projet étape par étape en partageant les fichiers entre les différents utilisateurs. Avec des possibilités de comparaison des annotations.
 
-Possiblité de collaboration : extension existe pour fusionner deux projets ensemble (enrichir un projet d'un autre). Faire attention à la compatibilité des grilles d'annotation.
+Possibilité de collaboration : option existe pour fusionner deux projets ensemble (enrichir un projet d'un autre). Faire attention à la compatibilité des grilles d'annotation.
 
 
 ## IA
 
-TODO
+L’IA est facultative dans l’analyse. Il est possible d'utiliser le moteur de son choix (Mistal, OpenAI, un modèle local, etc). La configuration est possible par interface graphique, ou en modifiant qualcoder.ini (pour rajouter un serveur de son choix, par exemple celui de son université).
+Il est possible d’avoir un [codage assisté par IA](https://qualcoder.org/doc/fr/4.2.-AI-Assisted-Coding/), en recherchant des thématiques.
+L’[analyse par IA](https://qualcoder.org/doc/fr/5.1.-AI-chat-based-analysis/) est également possible. À travers un chat, possibilité d'une analyse thématique, en regardant les principaux éléments qui ressortent, et en pointant les références associées. Possibilité d'avoir une « analyse de texte », avec la génération de thème, de reformulation/résumé de texte. Il est possible également d'avoir une analyse de code, en proposant un aperçu par code/section.
