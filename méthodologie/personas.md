@@ -21,14 +21,12 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 ### Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinis.
 
-Outils en place : 
+*Passage qui précise les besoins* Généralement les données sont sous des formats de tableaux (excel, csv), produit par un découpage et un nettoyage antérieur (la transformation n'est généralement pas prise en compte dans les logiciels). L'enjeu est que l'annotation prend du temps, qu'il est important de pouvoir garder une trace des étapes, et potentiellement de collaborer à cette annotation (soit pour aller plus vite, soit pour contrôler). Que ce soit les situations où toute l'annotation est humaine, ou les situation où l'objectif est d'automatiser l'annotation par prédiction, il y a un moment de lecture important des données. Dans le cas où il faut prédire, la question se pose de quelles sont les technologies de modèles utilisés, comment se fait l'évaluation de la qualité des prédictions, et comment s'organise le pipeline de travail. 
 
-- LabelStudio (docker)
-- Doccano (docker)
+*Passage qui précise les logiciels recommandés* Pour annoter des textes, le logiciel permettant le plus de souplesse est [LabelStudio](./logiciels/label-studio.md) notamment en raison de sa possibilité d'avoir des template. Néanmoins, comme il a beaucoup d'option, la prise en main peut être assez complexe, et il n'est pas spécifiquement pensé pour les besoins des sciences sociales. Le logiciel [ActiveTigger](./logiciels/activetigger.md) a justement pour but d'organiser les différentes étapes de l'annotation dans un parcours adapté aux sciences sociales, notamment pour accélérer la classification de textes avec les méthodes d'active learning. Son ergonomie est pensée pour une prise en main facile. Le logiciel [Doccano](./logiciels/doccano.md) est aussi une solution adaptée pour des petits projets qui ont besoin d'une interface simple et épurée pour de l'annotation collaborative.
 
-Outils émergents : 
+*Passage qui décrit les usages IA* LabelStudio et Doccano repose sur des solutions IA qui se connectent (recommandations, etc.). ActiveTigger intègre directement dans le pipeline un ensemble de méthodes (plongements des textes, distances sémantiques, entrainement de modèles BERT, appels génératifs).
 
-- Active Tigger
 
 ### Une linguiste doit annoter des relations entre des entités du texte dans un corpus de textes de taille moyenne (centaine d'entretiens courts retranscrits) en ayant accès à un étiquetage morphosyntaxique
 
