@@ -11,6 +11,8 @@
 
 **Conséquence : des outils très divers allant de l'analyse qualitative (Nvivo, QualCoder) au NLP/IA (Argilla, Labelstudio) intégrant des stratégies d'annotation automatique.**
 
+Remarque en plus : il y a aussi un développement de beaucoup de petits outils dans la recherche qui sont utiles pour les équipes à un moment, mais qui ne sont pas maintenus dans la durée, ce qui participe à complexifier le choix d'un outil stable utilisable dans le temps long.
+
 ## Objectif
 
 **Identifier le lien usages/logiciels pour réaliser de l'annotation en sciences humaines et sociales avec différents niveaux d'intégrations d'automatisation (des heuristiques aux usages "IA").**
