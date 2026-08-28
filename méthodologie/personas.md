@@ -8,15 +8,14 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 ### Une sociologue veut annoter un ensemble de longs textes (ex: entretiens) au niveau de passage de texte en construisant au fur et à mesure sa grille de codage.
 
-Outils en place :
+*Passage qui précise les besoins* Cette tâche d'annotation concerne des documents longs dans lesquels certains passages doivent être annotés avec une grille de codage qui peut évoluer dans le temps. Dans ce cas, la capacité d'avoir une vue générale du document, de pouvoir ajouter et enlever des codages, et d'avoir des statistiques d'annotation pour suivre la distributions des annotations par documents ou au contraire d'avoir les extraits par catégorie sont important. 
 
-- QualCoder (binaire, pas de droit d'admin, import taguette https://github.com/ccbogel/QualCoder/releases/tag/3.8.2 
-- LibreQDA (en client/serveur)
-- Taguette (binaire, en client/serveur)
+*Passage qui précise les logiciels recommandés* Les solutions libres les plus adaptées qui couvrent ces activités sont associés au CAQDAS Computer-Assisted Qualitative Data Analysis Software sont le logiciel standalone [QualCoder](./logiciels/qualcoder.md) pour un travail sur l'ordinateur et la solution collaborative [LibreQDA](./logiciels/libreqda.md) (construit sur Taguette). Le logiciel QualCoder est assez facile à prendre en main en raison d'une communauté active, son ergonomie pouvant cependant dater un peu. Il couvre l'ensemble des besoins de l'annotation et permet facilement d'extraire les résultats pour des analyses ultérieures.
 
-Outils émergents :
+*Passage qui décrit les usages IA* Les usages IA dans ce cas peuvent prendre la forme de suggestion sur la base des annotations déjà faites. A COMPLETER
 
-- Sonal
+*Passage qui commente les autres usages possibles* D'autres logiciels plus éloignés peuvent être utilisés : Inception offre toutes les possibilités d'annotation, mais les options supplémentaires le rendent assez lourd pour cet usage ; Doccano ou LabelStudio ne facilite pas le travail de vue générale.
+
 
 ### Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinis.
 
