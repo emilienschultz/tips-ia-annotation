@@ -69,7 +69,8 @@ L'import d'un corpus va du presse-papier, à un dossier formé d'un fichier .csv
 ## Interopérabilité
 
 Oui, des corpus venus d'Iramuteq, Hyperbase et Cordial peuvent être importés.
-Iramuteq permet d'importer un corpus TXM.
+
+Il est également possible d'importer un corpus TXM sur Iramuteq.
 
 
 ## Communauté
@@ -95,4 +96,5 @@ Il n'y a pas d'implétentation de l'IA dans le logiciel.
 **Retour d'expérience (Max Beligné) :**
 
 C'est un logiciel qui demande un peu de temps avant d'être à l'aise et de bien comprendre toutes ses possibilités. La documentation est bien faite, la liste renater de diffusion est très réactive. Des corpus de démonstrations sont disponibles dès l'installation du logiciel et des ateliers sont régulièrement organisés.
+
 Les fonctionnalité d'annotations sont loin d'être le coeur du logiciel mais dans le domaine de la textométrie, c'est une référence. 
