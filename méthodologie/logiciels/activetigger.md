@@ -8,10 +8,9 @@ Site web : [https://activetigger.com](https://activetigger.com)
 
 Code : [https://github.com/activetigger/activetigger](https://github.com/activetigger/activetigger)
 
-Citer le logiciel : 
+Citer le logiciel :
 
 > Schultz, E., Boelaert, J., Morin, A., Bonutti D'Agostini, E., Claesson, A., Ollion, É., & Chatelain, A. (2026). « ActiveTigger: An open source collaborative text annotation software for computational social sciences ». *Proceedings of the 18th International Conference on Statistical Analysis of Textual Data (JADT 2026)*, Palerme, Italie.
-
 
 ![Fenêtre principale d'annotation d'ActiveTigger](../../img/activetigger.png)
 
@@ -31,9 +30,9 @@ Le développement est porté par le groupe CSS (CREST/ENSAE/Institut Polytechniq
 
 *Le logiciel peut être déployé à partir de docker, ou installé sur en ligne de commande (back-end et front-end séparés). Il y a une  instance en ligne hébergée (sur demande de compte) ; un GPU est recommandé pour l'entraînement des modèles.*
 
-Pour une installation autonome, le déploiement recommandé passe par Docker Compose (backend FastAPI/Python, frontend React) sur sa machine ou un serveur cloud ; une installation manuelle est possible avec une base de données plus légère. Le logiciel fonctionne sur CPU, mais un GPU accélère significativement l'entraînement et les prédictions (BERT, sentence-BERT). Pas de logique de plugin. Une instance de démonstration est hébergée sur les serveurs du groupe ENSAE-ENSAI (avec GPU) : l'accès se fait par un formulaire de demande de compte, destiné aux chercheurs ayant des données textuelles à annoter.   
+Pour une installation autonome, le déploiement recommandé passe par Docker Compose (backend FastAPI/Python, frontend React) sur sa machine ou un serveur cloud ; une installation manuelle est possible avec une base de données plus légère. Le logiciel fonctionne sur CPU, mais un GPU accélère significativement l'entraînement et les prédictions (BERT, sentence-BERT). Pas de logique de plugin. Une instance de démonstration est hébergée sur les serveurs du groupe ENSAE-ENSAI (avec GPU) : l'accès se fait par un formulaire de demande de compte, destiné aux chercheurs ayant des données textuelles à annoter.
 
-## Corpus 
+## Corpus
 
 *Corpus textuels uniquement, importés sous forme tabulaire (une ligne par élément à annoter).*
 
@@ -65,7 +64,7 @@ Active Tigger est pensé autour de la boucle humain-modèle : l'annotation manue
 
 ## Prise en main
 
-*Liste des retours d'expérience des utilisateurs (identifiés pour accepter la dimension subjective)*
+*Liste des retours d'expérience des utilisateurs (identifiés pour accepter la dimension subjective).*
 
 **Retour d'expérience (Émilien Schultz) :**
 
