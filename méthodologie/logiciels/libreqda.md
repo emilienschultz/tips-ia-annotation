@@ -14,9 +14,11 @@ Code : [https://gitlab.com/bin-cirst/libreqda/libre-qda](https://gitlab.com/bin-
 
 LibreQDA est un logiciel libre d'annotation de thèmes dans un corpus de documents textuels, porté par la
 [Plateforme en humanités numériques (phun)](https://www.usherbrooke.ca/flsh/recherche/centres-groupes-et-equipes-de-recherche/phun) de l'Université de Sherbrooke (Canada).  
-Il permet de définir ses codes, puis après avoir annoté, de retrouver et d'étudier les thématiques choisies.  
+Il permet de définir ses codes, puis, après avoir annoté, de retrouver et d'étudier les thématiques choisies à l'aide d'un explorateur. L'outil se veut simple d'accès et n'embarque ([volontairement](https://www.usherbrooke.ca/flsh/actualites/nouvelles/details/54194)) que très peu de fonctionnalités d'analyse ou de quantification.
 Une sélection d’extraits encodés ou le projet en entier peuvent être exportés.  
 Un gros atout est la possibilité de collaborer avec d'autres personnes dans toutes ces étapes.
+
+<!-- Aviser si mon ajout sur le peu de fonctions analyse / quanti vous semble pertinent, l'impression que c'est une revendication des dev face usine à gaz caqdas modernes -->
 
 ## Licence
 
@@ -120,11 +122,24 @@ Les modifications sont appliquées en temps réel à l’ensemble de l’équipe
 
 Ouvrir le fichier brut si vous voulez voir les commentaires intégrés en balise `<!-- -->`
 
-mode anti-quantification
+## Prise en main
 
-L'explorateur de sélections. 
-L'exportation d'arbres de codes en format visuel. 
+**Retour d'expérience (Léo Mignot) :**
+<!-- évidemment on vire selon le ton qu'en veut et si on veut ou non garder des retours au final. Je le pose par écris pour stabiliser mon avis et pouvoir faire un retour aux collègue du labo. -->
 
-Un mode "anti-quantification". Si c'est important pour vous, il est maintenant possible de dissimuler les compteurs de fréquences.
+***Hot-Take : L'anti usine à gaz***  
 
-compteur indique combien de codes se trouvent dans chaque document
+L'UI est agréable et la documentation fait bien le travail pour identifier les fonctionnalités qui ne sauteraient pas directement aux yeux. La version disponible en ligne est fonctionnelle, mais peut poser des enjeux RGPD liés au transfert des données hors UE. L'installation locale pourrait être simplifiée, mais est en cours dans la feuille de route du logiciel (au 18/09/2026).
+
+Le logiciel est simple mais pas simplisite, et l'on dispose ainsi d'un surligneur numérique qui permettra de réexplorer les codages réalisés à l'aide de l'explorateur de sélections ou encore d'explorer les arbres de codes en format visuel, etc.
+
+La Ford T pouvait être choisie en noir ou en noir. LibreQDA fait un choix comparable : il se concentre sur l’annotation qualitative de contenus textuels, sans chercher à multiplier les fonctionnalités d'analyse.
+
+> [!NOTE]
+> Les développeurs se montrent à ce titre [critiques](https://www.usherbrooke.ca/flsh/actualites/nouvelles/details/54194) de la dimension « usine à gaz » de certains CAQDAS propriétaires, qui favoriseraient un "glissement de la recherche qualitative vers des méthodes quantitatives". La mise en avant de fonctionnalités « clés en main » inciterait à les appliquer, y compris là où il ne faudrait pas, parfois sans recul méthodologique.
+
+On peut aimer, ou détester si l'on a besoin de ce type de fonctionnalités. Mais si votre but est d'analyser qualitativement des contenus textuels (entretiens, etc.) sans velléité lexicométrique ou de quantification, Libreqda est une très bonne alternative facile à prendre en main.
+
+> [!CAUTION]
+> N.B. : le test n'a toutefois pas été réalisé sur de gros corpus, et le passage des textes en format quasi brut peut causer des soucis d'affichage. Voir les [limites](https://aide.libreqda.org/limites/) soulevées par les développeurs.  
+> N.B.2 : Au 18/09/2026, l'installation locale est encore peu/mal documentée en l'attente de mise à disposition des fichiers d'installation. Côté ligne de commande, certaines procédures d'installation (version dev notamment) méritent encore d'être clarifiées. Le logiciel est "jeune" et régulièrement mis à jour, on peut donc espérer que ce soit rapidement corrigé.
