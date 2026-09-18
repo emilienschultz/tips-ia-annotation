@@ -28,7 +28,7 @@ Un gros atout est la possibilité de collaborer avec d'autres personnes dans tou
 
 *LibreQDA peut être accédé en ligne, installé localement ou déployé sur un serveur.*
 
-Une instance est disponible en ligne sur https://libreqda.org/. Elle pose néanmoins la question du RGPD : l'hébergement sur un serveur universitaire au Canada suppose une sortie des données de l'UE (qu'il sera nécessaire de signaler pour validation dans votre déclaration RGPD).
+Une instance est disponible en ligne sur <https://libreqda.org/>. Elle pose néanmoins la question du RGPD : l'hébergement sur un serveur universitaire au Canada suppose une sortie des données de l'UE (qu'il sera nécessaire de signaler pour validation dans votre déclaration RGPD).
 
 L'installation en local est possible sous Linux, Mac ou Windows :
 
@@ -118,10 +118,6 @@ Les modifications sont appliquées en temps réel à l’ensemble de l’équipe
 
 <!-- Faut il rajouter une note sur le fait que le logiciel a pour but de simplifier ce qu'ils dénoncent comme le côté bloat des caqdas propriétaires, y compris les trucs lexico, et que c'est donc très probablement pas dans leur feuille de route ? -->
 
-## TODO
-
-Ouvrir le fichier brut si vous voulez voir les commentaires intégrés en balise `<!-- -->`
-
 ## Prise en main
 
 **Retour d'expérience (Léo Mignot) :**
@@ -129,17 +125,18 @@ Ouvrir le fichier brut si vous voulez voir les commentaires intégrés en balise
 
 ***Hot-Take : L'anti usine à gaz***  
 
-L'UI est agréable et la documentation fait bien le travail pour identifier les fonctionnalités qui ne sauteraient pas directement aux yeux. La version disponible en ligne est fonctionnelle, mais peut poser des enjeux RGPD liés au transfert des données hors UE. L'installation locale pourrait être simplifiée, mais est en cours dans la feuille de route du logiciel (au 18/09/2026).
+Le logiciel est simple mais pas simpliste, et l'on dispose ainsi d'un surligneur numérique qui permettra de réexplorer les codages réalisés à l'aide de l'explorateur de sélections ou encore d'explorer les arbres de codes en format visuel, etc. L'UI est agréable et la documentation fait bien le travail pour identifier les fonctionnalités qui ne sauteraient pas directement aux yeux.
 
-Le logiciel est simple mais pas simplisite, et l'on dispose ainsi d'un surligneur numérique qui permettra de réexplorer les codages réalisés à l'aide de l'explorateur de sélections ou encore d'explorer les arbres de codes en format visuel, etc.
-
-La Ford T pouvait être choisie en noir ou en noir. LibreQDA fait un choix comparable : il se concentre sur l’annotation qualitative de contenus textuels, sans chercher à multiplier les fonctionnalités d'analyse.
+La Ford T pouvait être choisie en noir ou en noir. libreQDA fait un choix comparable : il se concentre sur l’annotation qualitative de contenus textuels, sans chercher à multiplier les options d'analyse. On peut aimer, ou détester si l'on a besoin de ce type de fonctionnalités. Mais si votre but est d'analyser qualitativement des contenus textuels (entretiens, etc.) sans velléité lexicométrique ou de quantification, libreqda est une très bonne alternative facile à prendre en main.
 
 > [!NOTE]
 > Les développeurs se montrent à ce titre [critiques](https://www.usherbrooke.ca/flsh/actualites/nouvelles/details/54194) de la dimension « usine à gaz » de certains CAQDAS propriétaires, qui favoriseraient un "glissement de la recherche qualitative vers des méthodes quantitatives". La mise en avant de fonctionnalités « clés en main » inciterait à les appliquer, y compris là où il ne faudrait pas, parfois sans recul méthodologique.
-
-On peut aimer, ou détester si l'on a besoin de ce type de fonctionnalités. Mais si votre but est d'analyser qualitativement des contenus textuels (entretiens, etc.) sans velléité lexicométrique ou de quantification, Libreqda est une très bonne alternative facile à prendre en main.
-
+<!-- This is an HTML comment cause markdown linter doesn't want blank line - I hate you -->
 > [!CAUTION]
 > N.B. : le test n'a toutefois pas été réalisé sur de gros corpus, et le passage des textes en format quasi brut peut causer des soucis d'affichage. Voir les [limites](https://aide.libreqda.org/limites/) soulevées par les développeurs.  
 > N.B.2 : Au 18/09/2026, l'installation locale est encore peu/mal documentée en l'attente de mise à disposition des fichiers d'installation. Côté ligne de commande, certaines procédures d'installation (version dev notamment) méritent encore d'être clarifiées. Le logiciel est "jeune" et régulièrement mis à jour, on peut donc espérer que ce soit rapidement corrigé.
+
+## TODO
+
+Ouvrir le fichier brut si vous voulez voir les commentaires intégrés en balise `<!-- -->`  
+Sans doute harmoniser graphie du logiciel.
