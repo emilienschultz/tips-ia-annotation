@@ -24,6 +24,9 @@ Un gros atout est la possibilité de collaborer avec d'autres personnes dans tou
 
 *Logiciel libre et gratuit d'usage sous licence BSD 3-Clause.*
 
+> [!NOTE]
+> Le logiciel repose sur une bifurcation de [Taguette](https://www.taguette.org/), développé par [Rémi Rampin](https://gitlab.com/remram44/taguette). Taguette est également intéressant, mais plus minimaliste et présente moins de fonctionnalités. Nous vous recommandons plutôt LibreQDA si vous y avez accès.
+
 ## Installation
 
 *LibreQDA peut être accédé en ligne, installé localement ou déployé sur un serveur.*
@@ -125,9 +128,9 @@ Les modifications sont appliquées en temps réel à l’ensemble de l’équipe
 
 ***Hot-Take : L'anti usine à gaz***  
 
-Le logiciel est simple mais pas simpliste, et l'on dispose ainsi d'un surligneur numérique qui permettra de réexplorer les codages réalisés à l'aide de l'explorateur de sélections ou encore d'explorer les arbres de codes en format visuel, etc. L'UI est agréable et la documentation fait bien le travail pour identifier les fonctionnalités qui ne sauteraient pas directement aux yeux.
+Le logiciel est simple mais pas simpliste, et l'on dispose ainsi d'un surligneur numérique qui permettra de réexplorer les codages réalisés à l'aide de l'explorateur de sélections ou d'arbres de codes en format visuel, etc. L'UI est agréable et la documentation fait bien le travail pour identifier les fonctionnalités qui ne sauteraient pas directement aux yeux.
 
-La Ford T pouvait être choisie en noir ou en noir. libreQDA fait un choix comparable : il se concentre sur l’annotation qualitative de contenus textuels, sans chercher à multiplier les options d'analyse. On peut aimer, ou détester si l'on a besoin de ce type de fonctionnalités. Mais si votre but est d'analyser qualitativement des contenus textuels (entretiens, etc.) sans velléité lexicométrique ou de quantification, libreqda est une très bonne alternative facile à prendre en main.
+La Ford T pouvait être choisie en noir ou en noir. LibreQDA fait un choix comparable : il se concentre sur l’annotation qualitative de contenus textuels, sans chercher à multiplier les options d'analyse. On peut aimer, ou détester si l'on a besoin de ce type de fonctionnalités. Mais si votre but est d'analyser qualitativement des corpus sans velléité lexicométrique ou de quantification, LibreQDA est une bonne solution facile à prendre en main.
 
 > [!NOTE]
 > Les développeurs se montrent à ce titre [critiques](https://www.usherbrooke.ca/flsh/actualites/nouvelles/details/54194) de la dimension « usine à gaz » de certains CAQDAS propriétaires, qui favoriseraient un "glissement de la recherche qualitative vers des méthodes quantitatives". La mise en avant de fonctionnalités « clés en main » inciterait à les appliquer, y compris là où il ne faudrait pas, parfois sans recul méthodologique.
