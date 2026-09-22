@@ -6,7 +6,7 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 ## Propositions
 
-### Une sociologue veut annoter un ensemble de longs textes (ex: entretiens) au niveau de passage de texte en construisant au fur et à mesure sa grille de codage.
+### Une sociologue veut annoter un ensemble de longs textes (ex: entretiens) au niveau de passage de texte en construisant au fur et à mesure sa grille de codage
 
 *Passage qui précise les besoins* Cette tâche d'annotation concerne des documents longs dans lesquels certains passages doivent être annotés avec une grille de codage qui peut évoluer dans le temps. Dans ce cas, la capacité d'avoir une vue générale du document, de pouvoir ajouter et enlever des codages, et d'avoir des statistiques d'annotation pour suivre la distributions des annotations par documents ou au contraire d'avoir les extraits par catégorie sont important. Le souhait est d'avoir une interconnexion facilité avec la bureautique et des formats classiques docw et xlsx.
 
@@ -18,34 +18,32 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 *Logiciels propriétaires correspondants : Nvivo, MaxQDA, AtlasTi.*
 
+### Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinis
 
-### Un politiste veut classifier un grand corpus de textes (ex: presse) avec des labels prédéfinis.
+*Passage qui précise les besoins* Les données à annoter se présentent généralement sous la forme de tableaux (excel, csv) issus d'un découpage et d'un nettoyage préalable (la transformation n'est généralement pas prise en compte dans les logiciels). Cette tâche d'annotation sur de grands volumes est chronophage et suppose une interface facilitant le processus (raccourcis, présentation automatique du texte suivant, etc.). Elle suppose idéalement de conserver un historique des étapes réalisées (traçabilité des choix) et de permettre le travail collaboratif sur un projet (pour mutualiser l'effort et / ou contrôler les résultats). Que la procédure soit entièrement humaine ou que l'objectif soit d'automatiser l'annotation par prédiction, la lecture des données occupe un temps important du travail et doit donc être facilitée par le logiciel. Dans le cas du recours à de la prédiction, la question se pose des technologies des modèles utilisés, de comment se fait l'évaluation de la qualité des prédictions, et de comment s'organise le pipeline de travail.
 
-*Passage qui précise les besoins* Généralement les données sont sous des formats de tableaux (excel, csv), produit par un découpage et un nettoyage antérieur (la transformation n'est généralement pas prise en compte dans les logiciels). L'enjeu est que l'annotation prend du temps, qu'il est important de pouvoir garder une trace des étapes, et potentiellement de collaborer à cette annotation (soit pour aller plus vite, soit pour contrôler). Que ce soit les situations où toute l'annotation est humaine, ou les situation où l'objectif est d'automatiser l'annotation par prédiction, il y a un moment de lecture important des données. Dans le cas où il faut prédire, la question se pose de quelles sont les technologies de modèles utilisés, comment se fait l'évaluation de la qualité des prédictions, et comment s'organise le pipeline de travail. 
+*Passage qui précise les logiciels recommandés* Pour annoter des textes, le logiciel permettant le plus de souplesse est [LabelStudio](./logiciels/label-studio.md), notamment en raison de sa possibilité d'avoir des templates. Néanmoins, comme il a beaucoup d'options, la prise en main peut être assez complexe et il n'est pas spécifiquement pensé pour les besoins des sciences sociales. Le logiciel [ActiveTigger](./logiciels/activetigger.md) a justement pour but d'organiser les différentes étapes de l'annotation dans un parcours adapté aux sciences sociales, notamment pour accélérer la classification de textes avec les méthodes d'active learning. Son ergonomie est pensée pour une prise en main facile. Le logiciel [Doccano](./logiciels/doccano.md) est aussi une solution adaptée pour des petits projets qui ont besoin d'une interface simple et épurée pour de l'annotation collaborative.
 
-*Passage qui précise les logiciels recommandés* Pour annoter des textes, le logiciel permettant le plus de souplesse est [LabelStudio](./logiciels/label-studio.md) notamment en raison de sa possibilité d'avoir des template. Néanmoins, comme il a beaucoup d'option, la prise en main peut être assez complexe, et il n'est pas spécifiquement pensé pour les besoins des sciences sociales. Le logiciel [ActiveTigger](./logiciels/activetigger.md) a justement pour but d'organiser les différentes étapes de l'annotation dans un parcours adapté aux sciences sociales, notamment pour accélérer la classification de textes avec les méthodes d'active learning. Son ergonomie est pensée pour une prise en main facile. Le logiciel [Doccano](./logiciels/doccano.md) est aussi une solution adaptée pour des petits projets qui ont besoin d'une interface simple et épurée pour de l'annotation collaborative.
-
-*Passage qui décrit les usages IA* LabelStudio et Doccano repose sur des solutions IA qui se connectent (recommandations, etc.). ActiveTigger intègre directement dans le pipeline un ensemble de méthodes (plongements des textes, distances sémantiques, entrainement de modèles BERT, appels génératifs).
-
+*Passage qui décrit les usages IA* LabelStudio et Doccano proposent la possibilité d'intégrer des modules et solutions IA externes (recommandations, reinforcement learning, etc.) qu'il convient de connecter à l'interface principale. ActiveTigger intègre directement dans le pipeline un ensemble de méthodes (plongements des textes, distances sémantiques, entrainement de modèles BERT) et propose la possibilité d'appel à des modèles génératifs (qui nécessitent un point d'accès externe).
 
 ### Une linguiste doit annoter des relations entre des entités du texte dans un corpus de textes de taille moyenne (centaine d'entretiens courts retranscrits) en ayant accès à un étiquetage morphosyntaxique
 
-Outils en place : 
+Outils en place :
 
 - TXM
 - Inception
 
-Outils émergents : 
+Outils émergents :
 
 - ??
 
 ### Une économiste veut extraire rapidement des informations contenues dans des documents dans un corpus de taille moyenne (ex : offres d'emploi)
 
-Outils en place : 
+Outils en place :
 
 - LabelStudio (docker)
 
-Outils émergents : 
+Outils émergents :
 
 - wrapper Python (+ API)
 - Argilla (+API)
@@ -57,13 +55,13 @@ Outils en place :
 - Elan/avaa toolkit
 - QualCoder
 
-Outils émergents : 
+Outils émergents :
 
 - ?
 
 ### Divers
 
-*Profils pour le futur*
+*Profils pour le futur.*
 
 - Un historien en humanité numérique (logiciel comme TACTEO)
 
