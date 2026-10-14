@@ -19,19 +19,18 @@ Citer le logiciel :
 
 ## Description générale
 
-*Logiciel historique spécialisé d'annotation parallèle vidéo/son beaucoup utilisé par les communautés de linguistes*
+*Logiciel historique spécialisé d'annotation parallèle vidéo/son beaucoup utilisé par les communautés de linguistes.*
 
 Logiciel d'annotation de corpus d'enregistrements audios ou vidéos. Il permet d'annoter en ligne sur le signal sonore, de typer les lignes d'annotation et d'utiliser des vocabulaires contrôlés.
-Certaines annotations peuvent être dépendantes d'une autre.   
+Certaines annotations peuvent être dépendantes d'une autre.
 
 La recherche sur corpus est possible avec un retour à l'annotation (via ouverture du fichier).
 
-Possibilité de créer un extrait des audios/vidéos + annotations via le logiciel ffmpeg. 
+Possibilité de créer un extrait des audios/vidéos + annotations via le logiciel ffmpeg.
 
 Il permet de lier jusqu'à 4 fichiers vidéo à un document d'annotation, ce qui est fortement utile en langue des signes.
 
 Disponibilités de quelques codes pour l'annotation automatique des silences par exemple.
-
 
 ## Licence
 
@@ -39,13 +38,13 @@ Disponibilités de quelques codes pour l'annotation automatique des silences par
 
 ## Installation
 
-*Installation simple et rapide avec un installeur*
+*Installation simple et rapide avec un installeur.*
 
-Logiciel installé localement disponible sur Windows, Mac, Linux. 
+Logiciel installé localement disponible sur Windows, Mac, Linux.
 
-## Corpus 
+## Corpus
 
-*Logiciel orienté en priorité vers des données syncronisées vidéos/audios*
+*Logiciel orienté en priorité vers des données syncronisées vidéos/audios.*
 
 Différents types de formats qui peuvent être alignés
 
@@ -57,12 +56,12 @@ Différents types de formats qui peuvent être alignés
 
 ## Interopérabilité
 
-*Logiciel appartenant à la liste des logiciels de conversion de transcription et annotation morphosyntaxique via teiconvert : [https://ct3.ortolang.fr/teiconvert/index-fr.html](https://ct3.ortolang.fr/teiconvert/index-fr.html)*
+*Logiciel appartenant à la liste des logiciels de conversion de transcription et annotation morphosyntaxique via teiconvert : [https://ct3.ortolang.fr/teiconvert/index-fr.html](https://ct3.ortolang.fr/teiconvert/index-fr.html).*
 
 - Import : Transcriber, Clan, Praat, tableurs, fichiers de sous titres, ...
-- Export : eaf (format xml), tableur (possibilité de réinjecter des annotations ou les modifier via le tableur), Praat 
+- Export : eaf (format xml), tableur (possibilité de réinjecter des annotations ou les modifier via le tableur), Praat
 
-Possibilité d'exporter le template des lignes d'annotations et les vocabulaires. 
+Possibilité d'exporter le template des lignes d'annotations et les vocabulaires.
 
 Usage souvent couplé avec [AVAA Toolkit](https://journals.openedition.org/revuehn/4380).
 
@@ -74,10 +73,9 @@ Manuel/Guide : [https://archive.mpi.nl/tla/elan/documentation](https://framagrou
 
 Forum, liste de diffusion, contact : [https://archive.mpi.nl/tla/elan/support](https://archive.mpi.nl/tla/elan/support)
 
-
 ## Collaboratif
 
-*Le logiciel n'est pas prévu pour le collaboratif*
+*Le logiciel n'est pas prévu pour le collaboratif.*
 
 - Le partage des fichiers se fait facilement car un enregistrement = 1 fichier et les corpus sont gérés via le module de recherche uniquement. L'export des vocabulaires contrôlés et du modèle d'annotation permet le reproductibilité sur les différents enregistrements.
 - Possibilité d'ajouter son nom d'annotateur et de faire une recherche dessus.
@@ -86,4 +84,4 @@ Forum, liste de diffusion, contact : [https://archive.mpi.nl/tla/elan/support](h
 
 ## IA
 
-*Pas d'intégration IA dans le logiciel*
+*Pas d'intégration IA dans le logiciel.*
