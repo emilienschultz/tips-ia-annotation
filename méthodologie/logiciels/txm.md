@@ -8,7 +8,7 @@ Site web : [https://txm.gitpages.huma-num.fr/textometrie/index.html](https://txm
 
 Code : [https://gitlab.huma-num.fr/txm/txm-src](https://gitlab.huma-num.fr/txm/txm-src)
 
-Citer le logiciel : 
+Citer le logiciel :
 
 en français :
 > @misc{heiden2010txm,
@@ -21,7 +21,6 @@ en français :
 > publisher={Rome}
 > }
 
-
 en anglais :
 > @inproceedings{heiden2010txm,
 > title={The TXM platform: Building open-source textual analysis software
@@ -33,9 +32,7 @@ en anglais :
 > year={2010}
 > }
 
-
 ![Une concordance et un retour au texte dans TXM](../../img/txm.png)
-
 
 ## Description générale
 
@@ -51,7 +48,6 @@ Logiciel libre et gratuit d'usage
 
 Type de licence : GNU General Public License version 2
 
-
 ## Installation
 
 Un installeur binaire est disponible sur Windows, Mac, Linux. Son installation est détaillé [ici](https://txm.gitpages.huma-num.fr/txm-manual/installation.html)
@@ -60,7 +56,7 @@ Pour bénéficier de l'approche par lemmes, il faut installer l'extension et les
 
 L'installation d'un portail web TXM (serveur) est aussi [disponible](https://txm.gitpages.huma-num.fr/textometrie/files/software/TXM%20portal/)
 
-## Corpus 
+## Corpus
 
 4 types de corpus sont possible :  textes écrits, transcriptions d’enregistrements avec synchro audio, corpus alignés (par exemple, la même version d'un texte en plusieurs langues) et corpus en tableau (comme le résultat d'enquête ou autre...)
 
@@ -72,24 +68,22 @@ Oui, des corpus venus d'Iramuteq, Hyperbase et Cordial peuvent être importés.
 
 Il est également possible d'importer un corpus TXM sur Iramuteq.
 
-
 ## Communauté
 
-Une communauté très active existe avec un [wiki](https://groupes.renater.fr/wiki/txm-info), une [liste renater de diffusion](https://groupes.renater.fr/sympa//info/txm-info/) ainsi qu'un [site web dédiés aux développeurs](https://txm.gitpages.huma-num.fr/txm-manual/assistance-communautaire-et-documentation-compl%C3%A9mentaire.html#le-site-web-du-projet-textom%C3%A9trie) qui veulent participer au développement du logiciel. 
+Une communauté très active existe avec un [wiki](https://groupes.renater.fr/wiki/txm-info), une [liste renater de diffusion](https://groupes.renater.fr/sympa//info/txm-info/) ainsi qu'un [site web dédiés aux développeurs](https://txm.gitpages.huma-num.fr/txm-manual/assistance-communautaire-et-documentation-compl%C3%A9mentaire.html#le-site-web-du-projet-textom%C3%A9trie) qui veulent participer au développement du logiciel.
 
 Une [FAQ](https://txm.gitpages.huma-num.fr/textometrie/files/documentation/faq/), bien pratique, est disponible.
 
 ## Collaboratif
 
-La possibilité de travail collaboratif n'est pas intégrée nativement dans l'outil. 
+La possibilité de travail collaboratif n'est pas intégrée nativement dans l'outil.  
 Toutefois, cette [page](https://groupes.renater.fr/wiki/txm-info/public/travail_collaboratif) liste des ressources externes pouvant être mobilisées en cas de travail collaboratif.
 
 Le mode server permet aussi de donner accès à plusieurs personnes à un corpus.
 
-
 ## IA
 
-Il n'y a pas d'implétentation de l'IA dans le logiciel.
+Il n'y a pas d'implémentation de l'IA dans le logiciel.
 
 ## Prise en main
 
@@ -97,4 +91,4 @@ Il n'y a pas d'implétentation de l'IA dans le logiciel.
 
 C'est un logiciel qui demande un peu de temps avant d'être à l'aise et de bien comprendre toutes ses possibilités. La documentation est bien faite, la liste renater de diffusion est très réactive. Des corpus de démonstrations sont disponibles dès l'installation du logiciel et des ateliers sont régulièrement organisés.
 
-Les fonctionnalité d'annotations sont loin d'être le coeur du logiciel mais dans le domaine de la textométrie, c'est une référence. 
+Les fonctionnalité d'annotations sont loin d'être le coeur du logiciel mais dans le domaine de la textométrie, c'est une référence.
