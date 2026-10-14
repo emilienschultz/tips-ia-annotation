@@ -8,7 +8,7 @@ Site web : [https://doccano.web.webis.de/fr](https://doccano.web.webis.de/fr)
 
 Code : [https://github.com/doccano/doccano](https://github.com/doccano/doccano)
 
-Citer le logiciel : 
+Citer le logiciel :
 
 > @misc{doccano,
 >  title={{doccano}: Text Annotation Tool for Human},
@@ -33,7 +33,7 @@ Logiciel d'annotation "pour les humains" qui fonctionne avec un serveur et un cl
 
 ## Licence
 
-*Logiciel libre sous license MIT*
+*Logiciel libre sous license MIT.*
 
 ## Installation
 
@@ -41,12 +41,11 @@ Logiciel d'annotation "pour les humains" qui fonctionne avec un serveur et un cl
 
 Doccano est développé en Python. Son installation est possible directement en Python (3.8). Il peut y avoir quelques soucis sous Windows + il faut bien penser à prendre une version 3.8+ de Python pour l'installation. Il y a aussi un docker permet de déployer l'instance rapidement. Il ne semble pas y avoir de logique de plugin.
 
-## Corpus 
+## Corpus
 
 *Import de corpus textuels classiques dans les formats de bas niveaux classiques.*
 
 Doccano permet d'annoter des données textuelles et des images. Les données textuelles sont chargées sous la forme de tableaux. Les formats d'entrées sont assez variés : csv, plain text, excel, jsonl, CoNLL.
-
 
 ## Interopérabilité
 
@@ -56,22 +55,22 @@ Doccano prend en entrée des données tabulaires et permet l'extraction des donn
 
 ## Communauté
 
-*Un logiciel avec peu de soutien communautaire en dehors de la documentation officielle : https://doccano.github.io/doccano/*
+*Un logiciel avec peu de soutien communautaire en dehors de la documentation officielle.*
 
-La communauté est assez restreinte. S'il a 10k étoiles sur Github, il est peu cité dans les articles francophones de sciences sociales. Il y a peu de tutoriaux communautaires sur le sujet. 
+La documentation officielle est disponible à : <https://doccano.github.io/doccano/>.
+La communauté est assez restreinte. S'il a 10k étoiles sur Github, il est peu cité dans les articles francophones de sciences sociales. Il y a peu de tutoriaux communautaires sur le sujet.
 
 ## Collaboratif
 
 *Il est possible de collaborer sur un même projet mais pas de fonctionnalités avancées.*
 
-Doccano permet de faire de l'annotation multiutilisateur. Il y a plusieurs modes : annotation parallèle, ou annotation collective. Par contre il n'y a pas de logique d'arbitrage entre les désaccords d'annotation. 
+Doccano permet de faire de l'annotation multiutilisateur. Il y a plusieurs modes : annotation parallèle, ou annotation collective. Par contre il n'y a pas de logique d'arbitrage entre les désaccords d'annotation.
 
 ## IA
 
 *La gestion de l'IA se fait avec des services extérieurs pour prédire des éléments.*
 
 Doccano donne la possibilité de faire de l'auto-annotation en s'appuyant sur une API web externe https://doccano.github.io/doccano/advanced/auto_labelling_config/ (auto-labeling feature). Il est donc possible de construire ses propres annotateurs externes (quelle que soit la technologie) et l'utiliser pour l'annotation.
-
 
 ## Prise en main
 
