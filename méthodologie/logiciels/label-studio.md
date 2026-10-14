@@ -44,8 +44,6 @@ SI on veut images plus basique :
 
 Label Studio est un logiciel d'annotation multimodale qui fonctionne sur le principe client-serveur et permet de travailler à plusieurs sur un projet. Il est pensé pour l'annotation de grands volumes de données, notamment dans une perspective d'entraînement de modèles. Il couvre un large type de tâches : texte (classification, NER), images (détection d'objets, segmentation, classification), audio (interface de transcription, diarisation des locuteurs), séries temporelles, vidéo, PDF, etc.
 
-<!-- j'ai passé la partie soutien commercial dans la section communauté -->
-
 ## Licence
 
 *Logiciel libre sous licence Apache-2.0.*
@@ -56,8 +54,8 @@ Il existe également deux versions payantes (Starter Cloud et Enterprise) qui pr
 
 *Label Studio peut être installé localement ou déployé sur un serveur distant.*
 
-<!-- SIMPLIFIER ICI -->
 L'installation est possible via pip / brew / git / docker sous des machines Linux, Mac ou Windows  :
+
 - L'installation via pip suppose de savoir ouvrir un terminal et de passer par une ligne de commande, mais elle est facile.
 - Une option Homebrew est disponible pour macOS.
 - Docker pourra simplifier le déploiement d'une instance collective en ligne mais requiert une familiarité avec l'outil et des compétences en administration système.
@@ -66,7 +64,7 @@ Le niveau de complexité est donc modéré : raisonnable pour un profil ayant d�
 
 ## Corpus
 
-*Larges possibilités d'import de corpus de types variés (texte, image, vidéo, etc.)*
+*Larges possibilités d'import de corpus de types variés (texte, image, vidéo, etc.).*
 
 Label Studio permet des données textuelles, des images, de l'audio, de la vidéo, des pdf, etc. Les formats d'entrée sont variés :
 
@@ -80,14 +78,14 @@ Label Studio permet des données textuelles, des images, de l'audio, de la vidé
 
 ## Interopérabilité
 
-*Le logiciel permet l'import/export de données multimodales dans de nombreux formats standards et spécialisés*
+*Le logiciel permet l'import/export de données multimodales dans de nombreux formats standards et spécialisés.*
 
 Les formats d'import (voir ci-dessus) sont très variés.  
 Les formats d'export sont des standards connus (json, csv, tsv), ou plus spécifiques selon le type de données (CONLL2003, COCO, YOLO, Brush).
 
 ## Communauté
 
-*Un logiciel avec une documentation riche en raison de son soutien commercial et de nombreux supports en anglais, mais moins investit par la communauté de recherche francophone*
+*Un logiciel avec une documentation riche en raison de son soutien commercial et de nombreux supports en anglais, mais moins investit par la communauté de recherche francophone.*
 
 - La documentation officielle : https://labelstud.io/guide/
 - Des tutoriels : https://labelstud.io/tutorials/
