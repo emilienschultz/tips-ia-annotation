@@ -35,7 +35,7 @@ Une instance est disponible en ligne sur <https://libreqda.org/>. Elle pose néa
 
 L'installation en local est possible sous Linux, Mac ou Windows :
 
-- ~~via un installateur prêt à l'emploi pour Windows et Mac~~ (TODO : PAS POUR L'INSTANT)
+- via un installateur prêt à l'emploi pour Windows et Mac
 - en ligne de commande via pip (demande l'ouverture d'un terminal)
 - via Docker
   
