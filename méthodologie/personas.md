@@ -30,8 +30,12 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 Outils en place :
 
-- TXM
+- TXM 
 - Inception
+*Passage qui précise les besoins* L'annotation de phénomènes linguistiques se réalise sur texte brut ou sur des données préalablement enrichies. Objectifs variés : étudier le phénomène annoté, enrichissements de données pour interrogation avancée, préparation de données gold pour annotation automatisée.
+
+
+*Passage qui précise les logiciels recommandés* Précisez que pour une annotation réalisée par un seul chercheur, en local sur sa machine, avec une installation rapide et pour exploiter directement ses annotations avec les outils de textométries intégrés, TXM conviendra. Pour une campagne d’annotation avec plusieurs annotateurs et un arbitrage, INCePTION sera plus adapté, mais nécessite installation sur serveur.
 
 Outils émergents :
 
