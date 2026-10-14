@@ -8,12 +8,11 @@ Site web : [https://docs.argilla.io/latest/](https://docs.argilla.io/latest/)
 
 Code : [https://github.com/argilla-io/argilla](https://github.com/argilla-io/argilla)
 
-Citer le logiciel : 
+Citer le logiciel :
 
 > Vila-Suero, Daniel & Aranda, Francisco (2023). *Argilla - Open-source framework for data-centric NLP*. https://github.com/argilla-io/argilla
 
 ![Fenêtre principale d'annotation d'Argilla](../../img/argilla.png)
-
 
 ## Description générale
 
@@ -29,11 +28,11 @@ Développé initialement par la société Argilla, dont l'équipe a rejoint Hugg
 
 ## Installation
 
-*Déploiement serveur par Docker ou hébergement gratuit sur Hugging Face Spaces ; l'usage complet nécessite Python*
+*Déploiement serveur par Docker ou hébergement gratuit sur Hugging Face Spaces ; l'usage complet nécessite Python.*
 
 Deux modes de déploiement : un conteneur Docker (machine locale ou serveur) ou par Hugging Face avec une instance hébergée (avec authentification via le compte Hugging Face). L'accès des annotateurs se fait ensuite par le navigateur. En revanche, la création des projets, le chargement des données et la récupération des annotations passent par Python.
 
-## Corpus 
+## Corpus
 
 *Corpus textuels principalement (classification, NER, préférences LLM), avec un support multimodal pour les images.*
 
@@ -65,5 +64,4 @@ Le mécanisme central est celui des « suggestions » : n'importe quel modèle (
 
 ## Prise en main
 
-*Liste des retours d'expérience des utilisateurs (identifiés pour accepter la dimension subjective)*
-
+*Liste des retours d'expérience des utilisateurs (identifiés pour accepter la dimension subjective).*
