@@ -52,29 +52,6 @@ il faudra en réalité modifier le fichier libreqda.conf avant de lancer le serv
 - créer un chemin valable pour DATABASE (ie modifier DATABASE = "sqlite:////non/existent/taguette/database.sqlite3" avec votre chemin utilisateur / dossier cible
 - préciser un fichier tos (TOS_FILE = 'tos.html') ou passer la modalité à None (TOS_FILE = None)
 
-Pour la version dev, les étapes indiquées sont obsolètes (modif poetry)
-https://gitlab.com/bin-cirst/libreqda/libre-qda/-/work_items/30
-
-Workaround : 
-```bash
-git clone https://gitlab.com/bin-cirst/libreqda/libre-qda/
-cd libre-qda
-poetry env use python3.11
-poetry install
-poetry run bash scripts/update_translations.sh
-poetry run libreqda --debug
-```
-
-ou :
-```bash
-git clone https://gitlab.com/bin-cirst/libreqda/libre-qda/
-cd libre-qda
-poetry env use python3.11
-poetry install
-eval $(poetry env activate)
-bash scripts/update_translations.sh
-libreqda --debug
-```
 -->
 
 ## Corpus
@@ -110,10 +87,8 @@ En France, il n’existe pas véritablement de communauté dédiée, et les ress
 *Il est possible de collaborer sur un même projet et de gérer les permissions accordées, mais sans fonctionnalités avancées.*
 
 Le logiciel dans sa version en ligne est pensé pour collaborer à plusieurs sur un projet.  
-Il est possible d'ajouter des utilisateurs à un projet en gérant les permissions accordées (Consulter, Encoder, Modifier les codes, Importer et supprimer des documents, etc.)
+Il est possible d'ajouter des utilisateurs à un projet en gérant les permissions accordées (Consulter, Encoder, Modifier les codes, Importer et supprimer des documents, etc.).  
 Les modifications sont appliquées en temps réel à l’ensemble de l’équipe (ce qui peut influer sur la lecture et l’interprétation des données), il n'y a pas de logique d'arbitrage entre les désaccords d'annotation.
-
-<!-- TODO : confirmer si on est bien ok sur désaccords etc. -->
 
 ## IA
 
@@ -124,7 +99,7 @@ Les modifications sont appliquées en temps réel à l’ensemble de l’équipe
 ## Prise en main
 
 **Retour d'expérience (Léo Mignot) :**
-<!-- évidemment on vire selon le ton qu'en veut et si on veut ou non garder des retours au final. Je le pose par écris pour stabiliser mon avis et pouvoir faire un retour aux collègue du labo. -->
+<!-- évidemment on vire selon le ton qu'en veut et si on veut ou non garder des retours au final. Je le pose par écrit pour stabiliser mon avis et pouvoir faire un retour aux collègue du labo. -->
 
 ***Hot-Take : L'anti usine à gaz***  
 
@@ -138,8 +113,3 @@ La Ford T pouvait être choisie en noir ou en noir. LibreQDA fait un choix compa
 > [!CAUTION]
 > N.B. : le test n'a toutefois pas été réalisé sur de gros corpus, et le passage des textes en format quasi brut peut causer des soucis d'affichage. Voir les [limites](https://aide.libreqda.org/limites/) soulevées par les développeurs.  
 > N.B.2 : Au 18/09/2026, l'installation locale est encore peu/mal documentée en l'attente de mise à disposition des fichiers d'installation. Côté ligne de commande, certaines procédures d'installation (version dev notamment) méritent encore d'être clarifiées. Le logiciel est "jeune" et régulièrement mis à jour, on peut donc espérer que ce soit rapidement corrigé.
-
-## TODO
-
-Ouvrir le fichier brut si vous voulez voir les commentaires intégrés en balise `<!-- -->`  
-Sans doute harmoniser graphie du logiciel.
