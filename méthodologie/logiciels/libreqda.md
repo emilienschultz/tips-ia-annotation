@@ -108,8 +108,8 @@ Le logiciel est simple mais pas simpliste, et l'on dispose ainsi d'un surligneur
 La Ford T pouvait être choisie en noir ou en noir. LibreQDA fait un choix comparable : il se concentre sur l’annotation qualitative de contenus textuels, sans chercher à multiplier les options d'analyse. On peut aimer, ou détester si l'on a besoin de ce type de fonctionnalités. Mais si votre but est d'analyser qualitativement des corpus sans velléité lexicométrique ou de quantification, LibreQDA est une bonne solution facile à prendre en main.
 
 > [!NOTE]
-> Les développeurs se montrent à ce titre [critiques](https://www.usherbrooke.ca/flsh/actualites/nouvelles/details/54194) de la dimension « usine à gaz » de certains CAQDAS propriétaires, qui favoriseraient un "glissement de la recherche qualitative vers des méthodes quantitatives". La mise en avant de fonctionnalités « clés en main » inciterait à les appliquer, y compris là où il ne faudrait pas, parfois sans recul méthodologique.
+> Les développeurs se montrent à ce titre [critiques](https://www.usherbrooke.ca/flsh/actualites/nouvelles/details/54194) de la dimension "usine à gaz" de certains CAQDAS propriétaires, qui favoriseraient un "glissement de la recherche qualitative vers des méthodes quantitatives". À leurs yeux, la mise en avant de fonctionnalités "clé en main" inciterait à les appliquer, y compris là où il ne faudrait pas, parfois sans recul méthodologique.
 <!-- This is an HTML comment cause markdown linter doesn't want blank line - I hate you -->
 > [!CAUTION]
-> N.B. : le test n'a toutefois pas été réalisé sur de gros corpus, et le passage des textes en format quasi brut peut causer des soucis d'affichage. Voir les [limites](https://aide.libreqda.org/limites/) soulevées par les développeurs.  
-> N.B.2 : Au 18/09/2026, l'installation locale est encore peu/mal documentée en l'attente de mise à disposition des fichiers d'installation. Côté ligne de commande, certaines procédures d'installation (version dev notamment) méritent encore d'être clarifiées. Le logiciel est "jeune" et régulièrement mis à jour, on peut donc espérer que ce soit rapidement corrigé.
+> N.B. : le test n'a toutefois pas été réalisé sur de gros corpus, et le passage des textes en format quasi brut peut causer des soucis d'affichage. Voir les [limites](https://aide.libreqda.org/limites/) soulevées par les développeurs.
+
