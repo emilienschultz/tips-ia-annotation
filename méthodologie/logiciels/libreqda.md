@@ -1,6 +1,6 @@
 # LibreQDA
 
-Dernière modification de la fiche : 18/09/2026
+Dernière modification de la fiche : 6/11/2026
 
 Version testée : v1.2
 
