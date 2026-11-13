@@ -36,7 +36,13 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 *Passage qui décrit les usages IA* : Les logiciels comme TXM nécessite un travail d'intégration de l'IA en amont sur l'enrichissement des fichiers ; Inception permet d'intégrer des prédicteurs pour faire de l'enrichissement et des suggestions dans l'annotation - avec un coût d'entrée important.
 
-### Une économiste veut extraire rapidement des informations contenues dans des documents dans un corpus de taille moyenne (ex : offres d'emploi)
+### Une économiste veut extraire rapidement des informations contenues dans des documents dans un corpus de taille assez conséquent (ex : offres d'emploi) pour les intégrer comme régresseur dans un modèle.
+
+*Passage qui précise les besoins* Les données sont extraites dans un format manipulable (html, ou autre) avec généralement des usages de script associés pour le pipeline de traitement. Le corpus est un fichier contenant les données structurées (tableau ou json). L'enjeu principal est de pouvoir extraire rapidement de l'information sur différentes dimensions identifiées pour pouvoir mettre à l'échelle, et potentiellement répéter cette opération dans d'autres circonstances. Toutes les données ne vont pas être annotée par des humains, et il faut donc passer par une étape de prédiction en entrainant un modèle. Cela signifie aussi pouvoir être en mesure d'évaluer la qualité de la prédiction. Par ailleurs, le travail d'annotation va être délégué à des assistants de recherche, ce qui signifie qu'il y a un enjeu de pouvoir organiser le travail et le vérifier.
+
+*Passage qui précise les logiciels recommandés* 
+
+*Passage qui décrit les usages IA* 
 
 Outils en place :
 

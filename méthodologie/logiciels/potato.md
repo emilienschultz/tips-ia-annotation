@@ -52,6 +52,8 @@ Potato manipule des formats très divers : images, textes (textes, pdf, word, et
 
 Le type d'annotation est lui-aussi varié : catégories, span, texte libre, segmentation, différentes mesures configurables.
 
+C'est une instance par corpus, et non pas du multiprojet.
+
 ## Interopérabilité
 
 Le package semble fait pour la flexibilité. 
@@ -72,6 +74,7 @@ La documentation est pléthorique.
 Le logiciel est pensé pour des campagnes d'annotation. La configuration peut permettre à des utilisateurs de s'enregistrer, avec différentes règles limitant le nombre et qui.
 
 Il y a un panel administrateur permettant de suivre une campagne d'annotation, de gérer les utilisateurs, d'ajouter des tests d'attention, d'identifier les utilisateurs suscpicieux.
+
 
 
 ## IA
