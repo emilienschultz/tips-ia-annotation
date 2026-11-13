@@ -36,22 +36,18 @@ Définir un nombre limité de cas rencontré d'usagers de logiciel d'annotation 
 
 *Passage qui décrit les usages IA* : Les logiciels comme TXM nécessite un travail d'intégration de l'IA en amont sur l'enrichissement des fichiers ; Inception permet d'intégrer des prédicteurs pour faire de l'enrichissement et des suggestions dans l'annotation - avec un coût d'entrée important.
 
-### Une économiste veut extraire rapidement des informations contenues dans des documents dans un corpus de taille assez conséquent (ex : offres d'emploi) pour les intégrer comme régresseur dans un modèle.
+### Une économiste veut extraire des informations contenues dans des documents d'un corpus de grande taille  (ex : offres d'emploi) pour les intégrer comme régresseur dans un modèle (avec le contrôle des paramètres de production expérimentale des annotations).
 
-*Passage qui précise les besoins* Les données sont extraites dans un format manipulable (html, ou autre) avec généralement des usages de script associés pour le pipeline de traitement. Le corpus est un fichier contenant les données structurées (tableau ou json). L'enjeu principal est de pouvoir extraire rapidement de l'information sur différentes dimensions identifiées pour pouvoir mettre à l'échelle, et potentiellement répéter cette opération dans d'autres circonstances. Toutes les données ne vont pas être annotée par des humains, et il faut donc passer par une étape de prédiction en entrainant un modèle. Cela signifie aussi pouvoir être en mesure d'évaluer la qualité de la prédiction. Par ailleurs, le travail d'annotation va être délégué à des assistants de recherche, ce qui signifie qu'il y a un enjeu de pouvoir organiser le travail et le vérifier.
+*Passage qui précise les besoins* Les données sont extraites dans un format manipulable (html, ou autre) avec généralement des usages de script associés pour le pipeline de traitement. Le corpus est un fichier contenant les données structurées (tableau ou json). L'enjeu principal est de pouvoir extraire rapidement de l'information sur différentes dimensions factuelles pré-identifiées (nom de l'entreprise, secteur de la fiche de poste, etc.) pour pouvoir mettre à l'échelle, et potentiellement répéter cette opération dans d'autres circonstances. Un seul humain ne peut pas tout annoter et doit donc déléguer soit A/ à de l'externalisation soit B/ à des formes d'automatisation. Cela signifie aussi de pouvoir évaluer la qualité de l'annotation produite lors de la délégation. Dans tous les cas, une partie du travail d'annotation va être déléguée à des assistants de recherche, ce qui suppose de pouvoir organiser le travail et le vérifier. L'enjeu est de pouvoir éventuellement réutiliser cette méthode sur un corpus qui sera complété dans le futur.
 
-*Passage qui précise les logiciels recommandés* 
+Deux cas d'organisation du travail: 
+- Cas A Crowdsourcing : l'annotation doit rester humaine, et l'enjeu est de distribuer les tâches d'annotation
+- Cas B Automatisation : l'annotation est déléguée à des systèmes automatisables
 
-*Passage qui décrit les usages IA* 
+*Passage qui précise les logiciels recommandés* : Labelstudio permet de remplir les contraintes d'avoir des options avancées de paramétrage de l'annotation et de gestion de collaboration, en contrepartie de devoir le déployer et une prise en main qui demande un peu de formation (réflexion collective d'équipe). Plusieurs personnes peuvent collabiorer, répartition des tâches. Pensé pour avoir une intégration IA. Inception permet d'avoir une gestion fine des annotateurs mais n'est pas adapté aux grands volumes (orienté document). ActiveTigger permet de réaliser certaines tâches spécifiques (classification) mais sans option avancées de délégation des tâches. Argilla est très marqué par la culture apprentissage automatique et limite la collaboration.
 
-Outils en place :
+*Passage qui décrit les usages IA* : Les logiciels liés au machine learning mentionnés permettent l'intégration de l'IA a différents niveaux. L'introduction de l'IA peut se faire de trois manières : soit en faisant de la pré-annotation qu'on fait valider en partie/totalité (zéro-shot) ; annoter uniquement un ensemble de validation puis déléguer le traitement du corpus général (zéro-short ou few-shot) ; ou utiliser le corpus annoter comme un ensemble d'entrainement pour faire du supervisé (fine-tuning). L'introduction de l'usage agentique ouvre maintenant la voie à de nouvelles formes d'automatisation qui peuvent limiter voir supprimer l'usage de logiciels d'annotation en dehors de la partie constitution d'un échantillon de vérification.
 
-- LabelStudio (docker)
-
-Outils émergents :
-
-- wrapper Python (+ API)
-- Argilla (+API)
 
 ### Un chercheur en science de l'éducation s'intéresse à une série de vidéos d'interaction en milieu naturel d'individus et doit annoter les échanges d'intérêt (verbaux et non verbaux)
 
