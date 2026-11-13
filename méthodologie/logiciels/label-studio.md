@@ -96,6 +96,8 @@ Le projet a 27k étoiles sur GitHub et, étant développé par une entreprise (H
 
 *Le logiciel est largement pensé vers les tâches d'annotation multi-utilisateurs et il est possible de collaborer à plusieurs sur un projet.*
 
+Le logiciel intègre à ce titre des options de délégation et de répartition des tâches, par exemple dans le cadre de campagnes d'annotation. Plusieurs indicateurs permettent de mesurer l'accord inter-annotateur (à l'échelle du projet, des annotateurs ou de chaque tâche), de réattribuer les tâches présentant un faible niveau d'accord pour annotation complémentaire ou révision, etc.
+
 Dans le cas de l'usage collaboratif en ligne : il n'existe pas d'instance publique mutualisée gratuite compatible avec des données de recherche sensibles. Une instance est néanmoins disponible dans la stack Onyxia du [datalab sspcloud de l'INSEE](https://datalab.sspcloud.fr), mais la plateforme est limitée aux "données publiques et données usuelles (données de travail sans sensibilité particulière)".
 
 Il reste possible d'installer soi-même une instance en ligne si l'on a accès à des serveurs et aux compétences nécessaires (ou de souscrire à l'offre cloud payante de HumanSignal – mais il faudra dans ce cas vérifier les conditions concernant les données sensibles).
