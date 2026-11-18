@@ -118,4 +118,4 @@ Le logiciel est beau, l'UI est bien pensée et les vidéos d'explication ainsi q
 
 Si l'installation de base est facile pour qui sait ouvrir un terminal et connaît Python, ce n'est pas la même limonade s'il est question de connecter soi-même le tout à des modèles qu'il faut faire tourner depuis leur label-studio-ml-backend avec Docker.
 
-N.B. : La doc n'est pas toujours très cohérente sur la version de Python minimale nécessaire (selon les endroits sont mentionnées la v 3.6, 3.8, 3.10). L'installation via pip a ici marché sans problème avec Python 3.10.
+N.B. : La doc n'est pas toujours très cohérente sur la version de Python minimale nécessaire (selon les endroits sont mentionnées la v 3.6, 3.8, 3.10). L'installation via pip a ici marché sans problème avec Python 3.10 (mais a crash avec des versions plus récentes).
