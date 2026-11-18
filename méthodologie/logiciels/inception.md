@@ -6,7 +6,7 @@ Version testée : 41.0
 
 Site web : https://eclipse-inception.github.io/
 
-Code : https://github.com/inception-project/inception
+Code : https://github.com/eclipse-inception/inception
 
 Citer le logiciel :
 
