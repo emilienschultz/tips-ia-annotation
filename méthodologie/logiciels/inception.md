@@ -4,7 +4,7 @@ Dernière modification de la fiche : 6/07/2026
 
 Version testée : 41.0
 
-Site web : https://inception-project.github.io/
+Site web : https://eclipse-inception.github.io/
 
 Code : https://github.com/inception-project/inception
 
