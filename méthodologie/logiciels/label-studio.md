@@ -113,8 +113,8 @@ NB : L'utilisation des possibilités d'IA suppose de connecter des modèles depu
 
 **Retour d'expérience (Léo Mignot) :**
 
-***Hot-Take : Fait tout. Et trop.***  
-Le logiciel est beau, l'UI est bien pensée et les vidéos d'explication ainsi que la doc sont bienvenues. La création de projets et de schémas d'annotation est facilitée par l'interface d'import de données et l'existence de templates de labellisation (qu'il est possible de modifier, ou de créer de zéro). Le tout est très "pro". Néanmoins, l'expérience utilisateur pour le débutant n'est pas évidente. Il n'est pas facile de s'y retrouver dans la myriade d'options : il y a énormément de possibilités, sans que l'on soit super guidé sur ce qui marche dans nos cas d'usage ou non, ni pourquoi. Les configurations et le workflow ne tombent pas forcément sous le sens pour les néophytes. Il y a un côté "je peux tout faire, mais comment ?".
+***Hot-Take : Fait tout (et trop ?)***  
+Le logiciel est beau, l'UI est bien pensée et les vidéos d'explication ainsi que la doc sont bienvenues. La création de projets et de schémas d'annotation est facilitée par l'interface d'import de données et l'existence de templates de labellisation (qu'il est possible de modifier, ou de créer de zéro). Le tout est très "pro". Néanmoins, l'expérience utilisateur pour le débutant n'est pas évidente. Il n'est pas facile de s'y retrouver dans la myriade d'options : il y a énormément de possibilités, sans que l'on soit super guidé sur ce qui marche dans nos cas d'usage ou non, ni pourquoi. Les configurations et le workflow ne tombent pas forcément sous le sens pour les néophytes. Il y a un côté "je peux tout faire, mais comment ?". Rien d'insurmontable, mais il faut savoir ce que l'on veut en faire pour ne pas s'égarer.
 
 Si l'installation de base est facile pour qui sait ouvrir un terminal et connaît Python, ce n'est pas la même limonade s'il est question de connecter soi-même le tout à des modèles qu'il faut faire tourner depuis leur label-studio-ml-backend avec Docker.
 
