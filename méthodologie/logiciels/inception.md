@@ -1,6 +1,6 @@
 # INCEpTION
 
-Dernière modification de la fiche : 6/07/2026
+Dernière modification de la fiche : 18/11/2026
 
 Version testée : 41.0
 
