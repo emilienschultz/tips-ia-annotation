@@ -1,6 +1,6 @@
 # Label Studio
 
-Dernière modification de la fiche : 06/07/2026
+Dernière modification de la fiche : 18/11/2026
 
 Version testée : 1.23.0
 
